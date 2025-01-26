@@ -10,7 +10,7 @@
 
 "You wake up in a hospital bed, the faint smell of antiseptic lingering in the air. The walls are pale blue, and medical equipment hums softly nearby. You feel groggy, your body aching from the effects of painkillers."
 
-InteractiveFict
+The Nurse
 An Interactive Fiction by Nathan Parker
 Release 1 / Serial number 250126 / Inform 7 v10.1.2 / D
 
@@ -19,7 +19,7 @@ The hospital bed looks old but functional, with crisp white sheets that smell fa
 
 A plain white toilet sits in the corner of the room, functional but unremarkable.
 
-A small table stands beside the bed, holding a plastic water pitcher and a glass.
+A small table stands beside the bed.
 
 The Nurse stands nearby, her expression a mixture of professionalism and concern.
 
@@ -32,7 +32,227 @@ You can also see a Hopstial Room Door here.
             <child nodeId="node-1325"></child>
             <child nodeId="node-1376"></child>
             <child nodeId="node-1272"></child>
+            <child nodeId="node-1684"></child>
+            <child nodeId="node-1681"></child>
+            <child nodeId="node-1691"></child>
+            <child nodeId="node-1672"></child>
         </children>
+    </item>
+    <item nodeId="node-1672">
+        <command xml:space="preserve">use the toilet</command>
+        <result xml:space="preserve">You use the toilet. It's a small relief amidst the strange environment.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1675"></child>
+            <child nodeId="node-1673"></child>
+        </children>
+    </item>
+    <item nodeId="node-1673">
+        <command xml:space="preserve">use the toilet</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1675">
+        <command xml:space="preserve">go to desk</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1676"></child>
+        </children>
+    </item>
+    <item nodeId="node-1676">
+        <command xml:space="preserve">go to the table</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1677"></child>
+        </children>
+    </item>
+    <item nodeId="node-1677">
+        <command xml:space="preserve">search table</command>
+        <result xml:space="preserve">There is nothing on the table.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1678"></child>
+        </children>
+    </item>
+    <item nodeId="node-1678">
+        <command xml:space="preserve">describe table</command>
+        <result xml:space="preserve">You see nothing special about the table.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1679"></child>
+        </children>
+    </item>
+    <item nodeId="node-1679">
+        <command xml:space="preserve">table</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1680"></child>
+        </children>
+    </item>
+    <item nodeId="node-1680">
+        <command xml:space="preserve">look at table</command>
+        <result xml:space="preserve">You see nothing special about the table.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1691">
+        <command xml:space="preserve">search the drawer</command>
+        <result xml:space="preserve">You can't see inside, since the drawer is closed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1692"></child>
+        </children>
+    </item>
+    <item nodeId="node-1692">
+        <command xml:space="preserve">open the drawer</command>
+        <result xml:space="preserve">You open the drawer, revealing a sand.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1693"></child>
+        </children>
+    </item>
+    <item nodeId="node-1693">
+        <command xml:space="preserve">eat sand</command>
+        <result xml:space="preserve">You eat the sand.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1694"></child>
+        </children>
+    </item>
+    <item nodeId="node-1694">
+        <command xml:space="preserve">eat sand</command>
+        <result xml:space="preserve">You eat the sand.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1695"></child>
+        </children>
+    </item>
+    <item nodeId="node-1695">
+        <command xml:space="preserve">eat sand</command>
+        <result xml:space="preserve">You eat the sand.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1696"></child>
+        </children>
+    </item>
+    <item nodeId="node-1696">
+        <command xml:space="preserve">eat sand</command>
+        <result xml:space="preserve">You eat the sand.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1697"></child>
+        </children>
+    </item>
+    <item nodeId="node-1697">
+        <command xml:space="preserve">eat sand</command>
+        <result xml:space="preserve">You eat the sand.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1681">
+        <command xml:space="preserve">search table</command>
+        <result xml:space="preserve">There is nothing on the table.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1682"></child>
+        </children>
+    </item>
+    <item nodeId="node-1682">
+        <command xml:space="preserve">look at table</command>
+        <result xml:space="preserve">The table has a single drawer, currently closed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1683"></child>
+        </children>
+    </item>
+    <item nodeId="node-1683">
+        <command xml:space="preserve">open drawer</command>
+        <result xml:space="preserve">It isn't something you can open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1684">
+        <command xml:space="preserve">look at table</command>
+        <result xml:space="preserve">The table has a single drawer, currently closed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1685"></child>
+        </children>
+    </item>
+    <item nodeId="node-1685">
+        <command xml:space="preserve">open drawer</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1686"></child>
+        </children>
+    </item>
+    <item nodeId="node-1686">
+        <command xml:space="preserve">open drawer</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1687"></child>
+        </children>
+    </item>
+    <item nodeId="node-1687">
+        <command xml:space="preserve">go to table</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1688"></child>
+        </children>
+    </item>
+    <item nodeId="node-1688">
+        <command xml:space="preserve">search drawer</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1689"></child>
+        </children>
+    </item>
+    <item nodeId="node-1689">
+        <command xml:space="preserve">search the drawer</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1690"></child>
+        </children>
+    </item>
+    <item nodeId="node-1690">
+        <command xml:space="preserve">open the drawer</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1272">
         <command xml:space="preserve">greet nurse</command>

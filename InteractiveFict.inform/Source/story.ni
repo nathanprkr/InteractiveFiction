@@ -1,4 +1,4 @@
-"InteractiveFict" by Nathan Parker
+"The Nurse" by Nathan Parker
 
 Chapter 1 - The Hospital Room
 
@@ -8,11 +8,38 @@ The Hospital Room is a room.
 
 The Bed is an enterable supporter in the Hospital Room. "The hospital bed looks old but functional, with crisp white sheets that smell faintly of bleach." 
 
+The toilet is a fixed in place container in the Hospital Room. "A plain white toilet sits in the corner of the room, functional but unremarkable."
 
-The toilet is a fixed in place thing in the Hospital Room. "A plain white toilet sits in the corner of the room, functional but unremarkable."
+Using is an action applying to one thing. 
 
-The table is a supporter in the Hospital Room. "A small table stands beside the bed, holding a plastic water pitcher and a glass." 
+Understand "use [something]" or "sit on [something]" as using.
 
+Check using:
+	if the noun is not the toilet:
+		say "That's not something you can use like that." instead.
+
+Carry out using:
+	if the noun is the toilet:
+		say "You use the toilet. It's a small relief amidst the strange environment.";
+
+The table is a supporter in the Hospital Room. "A small table stands beside the bed." 
+
+The drawer is a part of the Table.
+The drawer is an openable closed container.
+
+The description of the table is "The table has a single drawer, currently closed."
+
+Sand Counter is a number that varies. Sand Counter is 0.
+
+The sand is in the Drawer. The description of the sand is "A small pile of sand, dry and oddly out of place in a hospital setting." 
+
+Instead of eating the sand:
+	increment the Sand Counter;
+	say "You eat the sand.";
+	if the Sand Counter is 15:
+		say "The nurse watches, distrubed as you shovel handful after handful of sand through your parched lips. She eventually leaves, and you continue to eat sand to your hearts content.";
+		end the story finally saying "You win. Good job eating sand";
+	
 The Hopstial Room Door is a door. The Hopstial Room Door is east of the Hospital Room and west of The Hallway. The Hopstial Room Door is open. The description of the Hopstial Room Door is "The door is wide open, leading to what appears to be a brightly lit hallway." 
 
 The Nurse is a person in the Hospital Room. "The Nurse stands nearby, her expression a mixture of professionalism and concern." The Nurse has a number called knowledge. The knowledge of the Nurse is 0.
@@ -187,7 +214,7 @@ Instead of unlocking the Exit Door with the Keys:
 Chapter 5 - The Courtroom
 
 The Courtroom is a room. 
-x
+
 The description of the courtroom is "You find yourself in a sterile, intimidating courtroom. The judge sits on an elevated platform, looking down at you, waiting for you to speak."
 
 The Judge is a person in The Courtroom. The Judge has a number called Frustration. The Frustration of the Judge is 0.
@@ -202,6 +229,22 @@ topic	question type	reply
 "charges"	about	"'You are charged with manslaughter for the deaths of a father and daughter while driving under the influence,' the Judge says grimly."
 "evidence"	about	"'The evidence includes your blood alcohol content, witness statements, and the damage to your vehicle,' the Judge explains."
 "sentence"	about	"'If convicted, you could face life imprisonment,' the Judge states."
+"crime details"	when	"The Judge says, 'The crime took place last Friday evening, around 9 PM, at the corner of Main and Elm Streets.'"
+"crime details"	where	"The Judge says, 'The accident occurred at a busy intersection, known for its heavy traffic.'"
+"crime details"	how	"The Judge says, 'You were driving at a high speed and under the influence, leading to a collision that caused tragic loss.'"
+"crime details"	why	"The Judge says, 'Your actions while intoxicated violated the law and put countless lives at risk.'"
+"prison"	what	"The Judge says, 'Prison is not an easy place. You will face strict rules and have to adapt to a harsh environment.'"
+"prison"	how	"The Judge says, 'You will be transported to the facility and go through an orientation process to learn the rules and expectations.'"
+"prison"	why	"The Judge says, 'Prison is intended to rehabilitate offenders and protect society from further harm.'"
+"prison"	where	"The Judge says, 'You will be sent to a medium-security facility just outside the city limits.'"
+"laws"	what	"The Judge says, 'Driving under the influence is a severe offense with harsh penalties. The law exists to protect lives.'"
+"laws"	why	"The Judge says, 'Drunk driving laws aim to deter individuals from endangering others on the road.'"
+"laws"	when	"The Judge says, 'These laws were strengthened over the past decade due to an alarming rise in fatal accidents.'"
+"laws"	how	"The Judge says, 'The penalties include fines, loss of your license, and potential imprisonment depending on the severity.'"
+"consequences"	what	"The Judge says, 'The consequences of your actions have left families grieving and lives shattered.'"
+"consequences"	why	"The Judge says, 'It is vital to take responsibility and understand the weight of your decisions.'"
+"consequences"	how	"The Judge says, 'The court's judgment will take into account the full scope of the harm caused.'"
+
 
 After asking the Judge about something:
 	if the Frustration of the Judge is 20:

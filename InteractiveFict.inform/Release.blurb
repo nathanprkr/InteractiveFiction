@@ -10,7 +10,7 @@ release to "/Users/nathan/InteractiveFiction/InteractiveFict.materials/Release"
 
 ! Blorb instructions
 
-storyfile leafname "InteractiveFict.gblorb"
+storyfile leafname "The Nurse.gblorb"
 storyfile "/Users/nathan/InteractiveFiction/InteractiveFict.inform/Build/output.ulx" include
 ifiction "/Users/nathan/InteractiveFiction/InteractiveFict.inform/Metadata.iFiction" include
 cover "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/DefaultCover.jpg"
@@ -21,7 +21,7 @@ picture 1 "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/Defau
 placeholder [IFID] = "A8731195-E304-4019-8CAB-BADCE2447B7A"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2025"
-placeholder [TITLE] = "InteractiveFict"
+placeholder [TITLE] = "The Nurse"
 placeholder [AUTHOR] = "Nathan Parker"
 placeholder [BLURB] = "A work of interactive fiction."
 
