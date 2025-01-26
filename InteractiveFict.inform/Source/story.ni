@@ -143,7 +143,7 @@ To respond to the question:
 					now the player is in The Courtroom;
 					stop the action;
 				if asked about family is true and asked about deaths is true:
-					say "The Nurse's face hardens as realization dawns. 'You... you killed my husband and daughter.' She picks up a scalpel and approaches.";
+					say "The Nurse's face hardens as realization dawns. 'You... you killed my husband and daughter.' She picks up a scalpel and approaches. Before you can react, she stabs you in the neck. Blood pours out filling your throat, choking you. As you gag away your last breaths, spurting out your own blood, the pain slowly ends for good.";
 					end the story saying "The Nurse killed you.";
 				if the topic understood includes "pain" and asked about deaths is true:
 					say "The Nurse's voice grows cold. 'Maybe we can help you with that pain.' You feel the sharp sting of an injection. The world fades to black as the nurse overdoses you with morphine.";
