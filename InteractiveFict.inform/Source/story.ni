@@ -1,33 +1,32 @@
 "InteractiveFict" by Nathan Parker
 
-Release along with an interpreter, a website, cover art ("the back of the head of a nurse") and the source text.
-
-The story genre is "Generated.".
-
-The story headline is "An Interactive Fiction".
-
-The story creation year is 2025.
-
-The release number is 1.
-
-The story description is "A first attempt at writing an interactive fiction."
-
 Chapter 1 - The Hospital Room
 
-When play begins, say "'You wake up in a hospital bed, the faint smell of antiseptic lingering in the air. The walls are pale blue, and medical equipment hums softly nearby. You feel groggy, your body aching from the effects of painkillers."
+When play begins, say "'You wake up in a hospital bed, the faint smell of antiseptic lingering in the air. The walls are pale blue, and medical equipment hums softly nearby. You feel groggy, your body aching from the effects of painkillers.'";
 
 The Hospital Room is a room. 
 
-Asked about family is a truth state that varies. Asked about crash is a truth state that varies. Asked about pain is a truth state that varies. Asked about deaths is a truth state that varies.
-Asked about recovery is a truth state that varies. 
+The Bed is a supporter in the Hospital Room.  "The hospital bed looks old but functional, with crisp white sheets that smell faintly of bleach." 
+
+The Bed can be entered.
+
+The toilet is a fixed in place thing in the Hospital Room. "A plain white toilet sits in the corner of the room, functional but unremarkable."
+
+The table is a supporter in the Hospital Room. "A small table stands beside the bed, holding a plastic water pitcher and a glass." 
+
+The Hopstial Room Door is a door. The Hopstial Room Door is east of the Hospital Room and west of The Hallway. The Hopstial Room Door is open. The description of the Hopstial Room Door is "The door is wide open, leading to what appears to be a brightly lit hallway." 
+
+The Nurse is a person in the Hospital Room. "The Nurse stands nearby, her expression a mixture of professionalism and concern." The Nurse has a number called knowledge. The knowledge of the Nurse is 0.
+
+The Nurse can be greeted or ungreeted. The Nurse is ungreeted.
+
+Asked about family is a truth state that varies. Asked about crash is a truth state that varies. Asked about pain is a truth state that varies. Asked about deaths is a truth state that varies. Asked about recovery is a truth state that varies.
 
 Interrogative is a kind of value. The interrogatives are who, what, when, where, how, about, and why.
 
 Current question is an interrogative that varies.
 
 Understand "ask [someone] [text]" as asking it about.
-
-The Nurse is a person in the Hospital Room. The Nurse has a number called knowledge. The knowledge of the Nurse is 0.
 
 Every turn when the player is in the Hospital Room:
 	increment the knowledge of the Nurse;
@@ -43,17 +42,15 @@ Greeting is an action applying to one thing.
 
 Understand "greet [thing]" or "say hello to [thing]" or "say hi to [thing]" or "wave to [thing]" or "hello [thing]" as greeting.
 
-Check greeting:
-	if the noun is the Nurse, say "The nurse is already waiting for your questions." instead;
-	if the noun is not the Nurse, say "There's no point in greeting that." instead.
 
-If the player greets the Nurse:
-	if the Nurse is ungreeted:
-		now the Nurse is greeted;
-		say "Hello, how are you feeling?' says the Nurse gently. 'You were in a car accident. Take it easy and let me know if you have questions.'";
-	otherwise:
-		say "The Nurse is already waiting for your questions."
-		
+Carry out greeting:
+	if the noun is the Nurse:
+		if the Nurse is ungreeted:
+			now the Nurse is greeted;
+			say "'Hello, how are you feeling?' says the Nurse gently. 'You were in a car accident. Take it easy and let me know if you have questions.'";
+		otherwise:
+			say "The Nurse is waiting for your questions 2.";
+
 Table of Answers
 topic	question type	reply
 "nurse"	what	"'I have a husband and a daughter,' the Nurse says, her tone softening slightly. 'They're everything to me.'"
@@ -84,7 +81,6 @@ topic	question type	reply
 "happened"	what	"'You were in a pretty bad car crash, and hit your head really hard.' the Nurse explains."
 "happened"	about	"'You were in a pretty bad car crash, and hit your head really hard.' the Nurse explains."
 
-
 To respond to the question:
 	repeat through the Table of Answers:
 		if the topic understood includes topic entry:
@@ -101,24 +97,21 @@ To respond to the question:
 					now the player is in The Courtroom;
 					stop the action;
 				if asked about family is true and asked about deaths is true:
-					say "The Nurse's face hardens as realization dawns. 'You... you killed my husband and daughter.' She picks up a scalpel and approaches. Before you can react, she stabs you in the neck. Blood pours out filling your throat, choking you. As you gag away your last breaths, spurting out your own blood, the pain slowly ends for good.";
+					say "The Nurse's face hardens as realization dawns. 'You... you killed my husband and daughter.' She picks up a scalpel and approaches.";
 					end the story saying "The Nurse killed you.";
 				if the topic understood includes "pain" and asked about deaths is true:
 					say "The Nurse's voice grows cold. 'Maybe we can help you with that pain.' You feel the sharp sting of an injection. The world fades to black as the nurse overdoses you with morphine.";
-					end the story saying "You slipped into a coma and had your organs harvested";
+					end the story saying "You slipped into a coma and had your organs harvested.";
 				increment the knowledge of the Nurse;
 				rule succeeds;
 	say "You output a slurred string of words that couldn’t be understood.";
-	say "The Nurse says, 'I don't think I understand what you just said. Morphine is pretty strong. Could you try again?'";
-
-
-
+	say "The Nurse says, 'I don't think I understand what you just said. Could you try again?'";
 
 Chapter 2 - The Hallway
 
 The Hallway is a room
 
-The Hallway is east of the Hospital Room
+The Hallway is east of the Hospital Room Door
 
 Chapter 3 - The Office
 
