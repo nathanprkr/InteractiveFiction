@@ -128,7 +128,7 @@ To respond to the question:
 
 Chapter 2 - The Hallway
 
-The Hallway is a room. "The hallway is well-lit and empty aside from some generic paintings on the walls."
+The Hallway is a room. "The hallway is well-lit and empty aside from some generic paintings on the walls. As you step into the hallway, you notice a group of police officers standing to the north, their eyes fixed on you"
 
 The Hallway is east of the Hopstial Room Door.
 
@@ -154,7 +154,7 @@ Instead of going through the Exit Door:
 		say "You walk outside, the sun shines on your face. Still feeling the pain meds, you stumble away, and escape for good.";
 		end the story saying "You escaped the hospital.";
 
-The ODoor is a door. It is south of the Hallway and north of the Office. The ODoor is closed. The description of the ODoor is "A plain metal door leading to an office."
+The Metal Door is a door. It is south of the Hallway and north of the Office. The Metal Door is closed. The description of the Metal Door is "A plain metal door leading to an office."
 
 Chapter 3 - The Office
 

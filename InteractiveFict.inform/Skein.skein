@@ -463,13 +463,14 @@ You can also see a Hopstial Room Door here.
         <command xml:space="preserve">go east</command>
         <result xml:space="preserve">
 The Hallway
-The hallway is well-lit and empty aside from some generic paintings on the walls.
+The hallway is well-lit and empty aside from some generic paintings on the walls. As you step into the hallway, you notice a group of police officers standing to the north, their eyes fixed on you
 
 You can see a Hopstial Room Door, an ODoor and an Exit Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1326"></child>
+            <child nodeId="node-1375"></child>
             <child nodeId="node-1336"></child>
             <child nodeId="node-1352"></child>
         </children>
@@ -481,7 +482,106 @@ You can see a Hopstial Room Door, an ODoor and an Exit Door here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1353"></child>
+            <child nodeId="node-1356"></child>
         </children>
+    </item>
+    <item nodeId="node-1356">
+        <command xml:space="preserve">what is north</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1357"></child>
+        </children>
+    </item>
+    <item nodeId="node-1357">
+        <command xml:space="preserve">go north</command>
+        <result xml:space="preserve">"Hey, he's awake!" one of the officers shouts. They tackle you, and you are transported to jail. You are placed on trial for your crimes.
+
+Courtroom
+You find yourself in a sterile, intimidating courtroom. The judge sits on an elevated platform, looking down at you.
+
+You can see a Judge here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1358"></child>
+        </children>
+    </item>
+    <item nodeId="node-1358">
+        <command xml:space="preserve">ask judge what deaths</command>
+        <result xml:space="preserve">The Judge frowns. "So you admit to killing them? The evidence is clear." He slams his gavel.
+
+
+
+    *** You are sentenced to life in prison. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1359"></child>
+        </children>
+    </item>
+    <item nodeId="node-1359">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">
+
+
+
+"You wake up in a hospital bed, the faint smell of antiseptic lingering in the air. The walls are pale blue, and medical equipment hums softly nearby. You feel groggy, your body aching from the effects of painkillers."
+
+InteractiveFict
+An Interactive Fiction by Nathan Parker
+Release 1 / Serial number 250126 / Inform 7 v10.1.2 / D
+
+Hospital Room
+The hospital bed looks old but functional, with crisp white sheets that smell faintly of bleach.
+
+A plain white toilet sits in the corner of the room, functional but unremarkable.
+
+A small table stands beside the bed, holding a plastic water pitcher and a glass.
+
+The Nurse stands nearby, her expression a mixture of professionalism and concern.
+
+You can also see a Hopstial Room Door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1360"></child>
+        </children>
+    </item>
+    <item nodeId="node-1360">
+        <command xml:space="preserve">go east</command>
+        <result xml:space="preserve">
+The Hallway
+The hallway is well-lit and empty aside from some generic paintings on the walls.
+
+You can see a Hopstial Room Door, an ODoor and an Exit Door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1361"></child>
+        </children>
+    </item>
+    <item nodeId="node-1361">
+        <command xml:space="preserve">go east</command>
+        <result xml:space="preserve">(first opening the Exit Door)
+The door is locked. You'll need a key to open it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1362"></child>
+        </children>
+    </item>
+    <item nodeId="node-1362">
+        <command xml:space="preserve">go east</command>
+        <result xml:space="preserve">(first opening the Exit Door)
+The door is locked. You'll need a key to open it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1353">
         <command xml:space="preserve">go north</command>
@@ -531,6 +631,16 @@ The door is locked. You'll need a key to open it.
     <item nodeId="node-1340">
         <command xml:space="preserve">go north</command>
         <result xml:space="preserve">"Hey, he's awake!" one of the officers shouts.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1375">
+        <command xml:space="preserve">go south</command>
+        <result xml:space="preserve">(first opening the ODoor)
+
+Office
+You can see an ODoor here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

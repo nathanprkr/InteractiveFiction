@@ -3890,9 +3890,9 @@ Constant alphabetised_text_11 = "Hopstial Room Door";
 Constant alphabetised_text_12 = "Hospital Room";
 Constant alphabetised_text_13 = "InteractiveFict";
 Constant alphabetised_text_14 = "Judge";
-Constant alphabetised_text_15 = "Nathan Parker";
-Constant alphabetised_text_16 = "Nurse";
-Constant alphabetised_text_17 = "ODoor";
+Constant alphabetised_text_15 = "Metal Door";
+Constant alphabetised_text_16 = "Nathan Parker";
+Constant alphabetised_text_17 = "Nurse";
 Constant alphabetised_text_18 = "Office";
 Constant alphabetised_text_19 = "Office Door";
 Constant alphabetised_text_20 = "Police Officers";
@@ -3903,7 +3903,7 @@ Constant alphabetised_text_24 = "The Hallway";
 Constant alphabetised_text_25 = "The Nurse killed you.";
 Constant alphabetised_text_26 = "The Nurse stands nearby, her expression a mixture of professionalism and concern.";
 Constant alphabetised_text_27 = "The door is wide open, leading to what appears to be a brightly lit hallway.";
-Constant alphabetised_text_28 = "The hallway is well-lit and empty aside from some generic paintings on the walls.";
+Constant alphabetised_text_28 = "The hallway is well-lit and empty aside from some generic paintings on the walls. As you step into the hallway, you notice a group of police officers standing to the north, their eyes fixed on you";
 Constant alphabetised_text_29 = "The hospital bed looks old but functional, with crisp white sheets that smell faintly of bleach.";
 Constant alphabetised_text_30 = "UNDO the last command";
 Constant alphabetised_text_31 = "You are sentenced to life in prison.";
@@ -4073,7 +4073,7 @@ Constant text_U53 = alphabetised_text_64;
 Constant K15_player_s_holdall_First = nothing;
 Constant text_U54 = alphabetised_text_53;
 Constant text_U55 = alphabetised_text_0;
-Constant text_U56 = alphabetised_text_15;
+Constant text_U56 = alphabetised_text_16;
 Constant text_U57 = alphabetised_text_5;
 Constant text_U58 = alphabetised_text_10;
 Constant column_identity_U1 = table_column_id_U1;
@@ -4102,14 +4102,14 @@ Constant text_U74 = alphabetised_text_27;
 Constant text_U75 = alphabetised_text_43;
 Constant text_U76 = alphabetised_text_24;
 Constant text_U77 = alphabetised_text_28;
-Constant text_U78 = alphabetised_text_16;
+Constant text_U78 = alphabetised_text_17;
 Constant text_U79 = alphabetised_text_26;
 Constant text_U80 = alphabetised_text_52;
 Constant text_U81 = alphabetised_text_20;
 Constant text_U82 = alphabetised_text_9;
 Constant text_U83 = alphabetised_text_4;
 Constant text_U84 = alphabetised_text_43;
-Constant text_U85 = alphabetised_text_17;
+Constant text_U85 = alphabetised_text_15;
 Constant text_U86 = alphabetised_text_1;
 Constant text_U87 = alphabetised_text_43;
 Constant text_U88 = alphabetised_text_18;
@@ -4170,7 +4170,7 @@ Constant abilities_U6 = (RELS_TEST);
 Constant abilities_U7 = (RELS_TEST);
 Constant text_U134 = alphabetised_text_13;
 Constant text_U135 = alphabetised_text_5;
-Constant text_U136 = alphabetised_text_15;
+Constant text_U136 = alphabetised_text_16;
 Constant GPR_REPARSE = REPARSE_CODE;
 Constant TABLE_NOVALUE = IMPROBABLE_VALUE;
 Constant RC_INFINITY = MAX_POSITIVE_NUMBER;
@@ -5591,7 +5591,7 @@ Array bc_U281 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U135; ];
 Array bc_U282 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U136; ];
 Array UUID_ARRAY -> [ 45; 'U'; 'U'; 'I'; 'D'; ':'; '/'; '/'; 'A'; '8'; '7'; '3'; '1'; '1'; '9'; '5'; '-'; 'E'; '3'; '0'; '4'; '-'; '4'; '0'; '1'; '9'; '-'; '8'; 'C'; 'A'; 'B'; '-'; 'B'; 'A'; 'D'; 'C'; 'E'; '2'; '4'; '4'; '7'; 'B'; '7'; 'A'; '/'; '/'; ];
 Array InitialSituation --> [ selfobj; 0; I_hospital_room_U1; 540; 0; ];
-Array Map_Storage --> [ 0; 0; 0; 0; 0; 0; I_hopstial_room_door_U1; 0; 0; 0; 0; 0; I_police_officers_U1; 0; 0; I_odoor_U1; 0; 0; I_exit_door_U1; I_hopstial_room_door_U1; 0; 0; 0; 0; 0; 0; 0; I_the_hallway_U1; 0; 0; 0; 0; 0; 0; 0; 0; I_odoor_U1; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; I_office_U1; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; ];
+Array Map_Storage --> [ 0; 0; 0; 0; 0; 0; I_hopstial_room_door_U1; 0; 0; 0; 0; 0; I_police_officers_U1; 0; 0; I_metal_door_U1; 0; 0; I_exit_door_U1; I_hopstial_room_door_U1; 0; 0; 0; 0; 0; 0; 0; I_the_hallway_U1; 0; 0; 0; 0; 0; 0; 0; 0; I_metal_door_U1; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; I_office_U1; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; ];
 Array name_array1 --> [ 'north'; 'directions//p'; 'n//'; ];
 Array name_array2 --> [ 'northeast'; 'directions//p'; 'ne'; ];
 Array name_array3 --> [ 'northwest'; 'directions//p'; 'nw'; ];
@@ -5613,7 +5613,7 @@ Array name_array18 --> [ 'the'; 'hallway'; 'rooms//p'; ];
 Array name_array19 --> [ 'nurse'; 'people//p'; ];
 Array name_array20 --> [ 'police'; 'officers'; 'rooms//p'; ];
 Array name_array21 --> [ 'exit'; 'door'; 'doors//p'; ];
-Array name_array22 --> [ 'odoor'; 'doors//p'; ];
+Array name_array22 --> [ 'metal'; 'door'; 'doors//p'; ];
 Array name_array23 --> [ 'office'; 'rooms//p'; ];
 Array name_array24 --> [ 'office'; 'door'; 'rooms//p'; ];
 Array name_array25 --> [ 'courtroom'; 'rooms//p'; ];
@@ -6213,9 +6213,9 @@ K4_door -> I_exit_door_U1    with short_name bc_U207
     has mark_as_thing
     with KD_Count 4
     with IK2_Count 6
-    with K2_thing_Next I_odoor_U1
+    with K2_thing_Next I_metal_door_U1
     with IK4_Count 1
-    with K4_door_Next I_odoor_U1
+    with K4_door_Next I_metal_door_U1
     with action_bitmap 0 0 0 0 0 0
     with name 'exit' 'door' 'doors//p'
     with initial bc_U209
@@ -6236,7 +6236,7 @@ K1_room I_police_officers_U1    with short_name bc_U202
     with article bc_U205
     with list_together bc_U206
 ;
-K4_door I_odoor_U1    with short_name bc_U213
+K4_door I_metal_door_U1    with short_name bc_U213
     with description bc_U214
     has ~open
     with vector 0
@@ -6251,7 +6251,7 @@ K4_door I_odoor_U1    with short_name bc_U213
     with IK4_Count 2
     with K4_door_Next 0
     with action_bitmap 0 0 0 0 0 0
-    with name 'odoor' 'doors//p'
+    with name 'metal' 'door' 'doors//p'
     with initial bc_U215
     with plural bc_U216
     with article bc_U217
