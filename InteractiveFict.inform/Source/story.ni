@@ -6,9 +6,8 @@ When play begins, say "'You wake up in a hospital bed, the faint smell of antise
 
 The Hospital Room is a room. 
 
-The Bed is a supporter in the Hospital Room.  "The hospital bed looks old but functional, with crisp white sheets that smell faintly of bleach." 
+The Bed is an enterable supporter in the Hospital Room. "The hospital bed looks old but functional, with crisp white sheets that smell faintly of bleach." 
 
-The Bed can be entered.
 
 The toilet is a fixed in place thing in the Hospital Room. "A plain white toilet sits in the corner of the room, functional but unremarkable."
 
@@ -37,11 +36,12 @@ Every turn when the player is in the Hospital Room:
 
 After reading a command:
 	if the player's command includes "[interrogative]", now the current question is the interrogative understood.
+	
+After asking someone about something: respond to the question. After answering someone that something: respond to the question.
 
 Greeting is an action applying to one thing.
 
 Understand "greet [thing]" or "say hello to [thing]" or "say hi to [thing]" or "wave to [thing]" or "hello [thing]" as greeting.
-
 
 Carry out greeting:
 	if the noun is the Nurse:
@@ -49,7 +49,26 @@ Carry out greeting:
 			now the Nurse is greeted;
 			say "'Hello, how are you feeling?' says the Nurse gently. 'You were in a car accident. Take it easy and let me know if you have questions.'";
 		otherwise:
-			say "The Nurse is waiting for your questions 2.";
+			say "The Nurse is waiting for your questions.";
+
+Talking to is an action applying to one thing.
+
+Understand "talk to [thing]" or "ask [thing]" as talking to.
+
+Check talking to:
+	if the noun is not the Nurse, say "You can't talk to that." instead;
+	if the Nurse is ungreeted, say "You should greet the Nurse first." instead.
+
+
+Stopping talking is an action applying to one thing.
+
+Understand "stop talking to [thing]" or "stop interacting with [thing]" as stopping talking.
+
+Check stopping talking:
+	if the noun is not the Nurse, say "You're not talking to that." instead.
+
+Carry out stopping talking:
+	say "You stop your conversation with the Nurse and sit back in silence.";
 
 Table of Answers
 topic	question type	reply
@@ -109,11 +128,39 @@ To respond to the question:
 
 Chapter 2 - The Hallway
 
-The Hallway is a room
+The Hallway is a room. "The hallway is well-lit and empty aside from some generic paintings on the walls."
 
-The Hallway is east of the Hospital Room Door
+The Hallway is east of the Hopstial Room Door.
+
+The Police Officers are north of the Hallway. 
+
+Instead of going north from the Hallway:
+	say "'Hey, he's awake!' one of the officers shouts. They tackle you, and you are transported to jail. You are placed on trial for your crimes.";
+	now the player is in The Courtroom;
+	stop the action;
+
+The Exit Door is a locked door. It is east of the Hallway. The description of the Exit Door is "A sturdy door with a heavy lock."
+
+Instead of opening the Exit Door:
+	if the Exit Door is locked:
+		say "The door is locked. You'll need a key to open it.";
+	otherwise:
+		continue the action.
+
+Instead of going through the Exit Door:
+	if the Exit Door is locked:
+		say "The door is locked. You'll need to unlock it first.";
+	otherwise:
+		say "You walk outside, the sun shines on your face. Still feeling the pain meds, you stumble away, and escape for good.";
+		end the story saying "You escaped the hospital.";
+
+The ODoor is a door. It is south of the Hallway and north of the Office. The ODoor is closed. The description of the ODoor is "A plain metal door leading to an office."
 
 Chapter 3 - The Office
+
+The Office is a room.
+
+The Office is south of the Office Door.
 
 
 Chapter 4 - The Courtroom

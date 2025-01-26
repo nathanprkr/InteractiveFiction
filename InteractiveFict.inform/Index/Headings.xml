@@ -24,21 +24,21 @@
     </dict>
     <key>3</key><dict>
         <key>Filename</key><string>/Users/nathan/InteractiveFiction/InteractiveFict.inform/Source/story.ni</string>
-        <key>Line</key><integer>110</integer>
+        <key>Line</key><integer>129</integer>
         <key>Title</key><string>Chapter 2 - The Hallway</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>4</key><dict>
         <key>Filename</key><string>/Users/nathan/InteractiveFiction/InteractiveFict.inform/Source/story.ni</string>
-        <key>Line</key><integer>116</integer>
+        <key>Line</key><integer>159</integer>
         <key>Title</key><string>Chapter 3 - The Office</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>5</key><dict>
         <key>Filename</key><string>/Users/nathan/InteractiveFiction/InteractiveFict.inform/Source/story.ni</string>
-        <key>Line</key><integer>119</integer>
+        <key>Line</key><integer>166</integer>
         <key>Title</key><string>Chapter 4 - The Courtroom</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>

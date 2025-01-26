@@ -27,7 +27,9 @@ You can also see a Hopstial Room Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1300"></child>
+        <children><child nodeId="node-1341"></child>
+            <child nodeId="node-1300"></child>
+            <child nodeId="node-1325"></child>
             <child nodeId="node-1272"></child>
         </children>
     </item>
@@ -37,8 +39,10 @@ You can also see a Hopstial Room Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1273"></child>
+        <children><child nodeId="node-1306"></child>
+            <child nodeId="node-1273"></child>
             <child nodeId="node-1286"></child>
+            <child nodeId="node-1328"></child>
             <child nodeId="node-1284"></child>
         </children>
     </item>
@@ -49,14 +53,161 @@ You can also see a Hopstial Room Door here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-1328">
+        <command xml:space="preserve">ask nurse what pain</command>
+        <result xml:space="preserve">"I know you're in pain, but I can't safely increase your dosage," the Nurse says gently.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1329"></child>
+        </children>
+    </item>
+    <item nodeId="node-1329">
+        <command xml:space="preserve">stop talking to nurse</command>
+        <result xml:space="preserve">You stop your conversation with the Nurse and sit back in silence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1330"></child>
+        </children>
+    </item>
+    <item nodeId="node-1330">
+        <command xml:space="preserve">go east</command>
+        <result xml:space="preserve">
+The Hallway
+The hallway is well-lit and empty aside from some generic paintings on the walls.
+
+You can see a Hopstial Room Door, an ODoor and an Exit Door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1331"></child>
+        </children>
+    </item>
+    <item nodeId="node-1331">
+        <command xml:space="preserve">go to exit door</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1332"></child>
+        </children>
+    </item>
+    <item nodeId="node-1332">
+        <command xml:space="preserve">go to Exit Door</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1333"></child>
+        </children>
+    </item>
+    <item nodeId="node-1333">
+        <command xml:space="preserve">go east</command>
+        <result xml:space="preserve">(first opening the Exit Door)
+You can't, since the Exit Door leads nowhere.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1334"></child>
+        </children>
+    </item>
+    <item nodeId="node-1334">
+        <command xml:space="preserve">open exit door</command>
+        <result xml:space="preserve">That's already open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1286">
         <command xml:space="preserve">ask nurse what family</command>
-        <result xml:space="preserve">There is no reply.
+        <result xml:space="preserve">"I have a husband and a daughter," the Nurse says, her tone softening slightly. "They're everything to me."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1287"></child>
+            <child nodeId="node-1311"></child>
         </children>
+    </item>
+    <item nodeId="node-1311">
+        <command xml:space="preserve">ask nurse what deaths</command>
+        <result xml:space="preserve">"A father and daughter lost their lives in the crash," the Nurse says, her voice wavering slightly.
+
+The Nurse's face hardens as realization dawns. "You... you killed my husband and daughter." She picks up a scalpel and approaches.
+
+
+
+    *** The Nurse killed you. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1312"></child>
+        </children>
+    </item>
+    <item nodeId="node-1312">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">
+
+
+
+"You wake up in a hospital bed, the faint smell of antiseptic lingering in the air. The walls are pale blue, and medical equipment hums softly nearby. You feel groggy, your body aching from the effects of painkillers."
+
+InteractiveFict
+An Interactive Fiction by Nathan Parker
+Release 1 / Serial number 250126 / Inform 7 v10.1.2 / D
+
+Hospital Room
+The hospital bed looks old but functional, with crisp white sheets that smell faintly of bleach.
+
+A plain white toilet sits in the corner of the room, functional but unremarkable.
+
+A small table stands beside the bed, holding a plastic water pitcher and a glass.
+
+The Nurse stands nearby, her expression a mixture of professionalism and concern.
+
+You can also see a Hopstial Room Door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1313"></child>
+        </children>
+    </item>
+    <item nodeId="node-1313">
+        <command xml:space="preserve">greet nurse</command>
+        <result xml:space="preserve">"Hello, how are you feeling?" says the Nurse gently. "You were in a car accident. Take it easy and let me know if you have questions."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1314"></child>
+        </children>
+    </item>
+    <item nodeId="node-1314">
+        <command xml:space="preserve">stop talking to nurse</command>
+        <result xml:space="preserve">You stop your conversation with the Nurse and sit back in silence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1315"></child>
+        </children>
+    </item>
+    <item nodeId="node-1315">
+        <command xml:space="preserve">go to bed</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1316"></child>
+        </children>
+    </item>
+    <item nodeId="node-1316">
+        <command xml:space="preserve">enter bed</command>
+        <result xml:space="preserve">That's not something you can enter.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1287">
         <command xml:space="preserve">ask nurse family</command>
@@ -285,9 +436,350 @@ You can also see a Hopstial Room Door here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-1306">
+        <command xml:space="preserve">ask nurse accident</command>
+        <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1307"></child>
+        </children>
+    </item>
+    <item nodeId="node-1307">
+        <command xml:space="preserve">ask nurse</command>
+        <result xml:space="preserve">&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1308"></child>
+        </children>
+    </item>
+    <item nodeId="node-1308">
+        <command xml:space="preserve">ask nurse what family</command>
+        <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1325">
+        <command xml:space="preserve">go east</command>
+        <result xml:space="preserve">
+The Hallway
+The hallway is well-lit and empty aside from some generic paintings on the walls.
+
+You can see a Hopstial Room Door, an ODoor and an Exit Door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1326"></child>
+            <child nodeId="node-1336"></child>
+            <child nodeId="node-1352"></child>
+        </children>
+    </item>
+    <item nodeId="node-1352">
+        <command xml:space="preserve">look north</command>
+        <result xml:space="preserve">You see nothing unexpected in that direction.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1353"></child>
+        </children>
+    </item>
+    <item nodeId="node-1353">
+        <command xml:space="preserve">go north</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1336">
+        <command xml:space="preserve">go to exit door</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1337"></child>
+        </children>
+    </item>
+    <item nodeId="node-1337">
+        <command xml:space="preserve">go to exit</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1338"></child>
+        </children>
+    </item>
+    <item nodeId="node-1338">
+        <command xml:space="preserve">go east</command>
+        <result xml:space="preserve">(first opening the Exit Door)
+The door is locked. You'll need a key to open it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1339"></child>
+        </children>
+    </item>
+    <item nodeId="node-1339">
+        <command xml:space="preserve">go east</command>
+        <result xml:space="preserve">(first opening the Exit Door)
+The door is locked. You'll need a key to open it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1340"></child>
+        </children>
+    </item>
+    <item nodeId="node-1340">
+        <command xml:space="preserve">go north</command>
+        <result xml:space="preserve">"Hey, he's awake!" one of the officers shouts.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1326">
+        <command xml:space="preserve">go east</command>
+        <result xml:space="preserve">(first opening the Exit Door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1300">
         <command xml:space="preserve">enter bed</command>
+        <result xml:space="preserve">You get onto the Bed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1302"></child>
+            <child nodeId="node-1318"></child>
+        </children>
+    </item>
+    <item nodeId="node-1318">
+        <command xml:space="preserve">leave bed</command>
+        <result xml:space="preserve">I only understood you as far as wanting to leave.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1319"></child>
+        </children>
+    </item>
+    <item nodeId="node-1319">
+        <command xml:space="preserve">get out of bed</command>
+        <result xml:space="preserve">I only understood you as far as wanting to get outside.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1320"></child>
+        </children>
+    </item>
+    <item nodeId="node-1320">
+        <command xml:space="preserve">go to nurse</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1321"></child>
+        </children>
+    </item>
+    <item nodeId="node-1321">
+        <command xml:space="preserve">go east</command>
+        <result xml:space="preserve">(first getting off the Bed)
+
+The Hallway
+You can see a Hopstial Room Door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1322"></child>
+        </children>
+    </item>
+    <item nodeId="node-1322">
+        <command xml:space="preserve">go west</command>
+        <result xml:space="preserve">
+Hospital Room
+The hospital bed looks old but functional, with crisp white sheets that smell faintly of bleach.
+
+A plain white toilet sits in the corner of the room, functional but unremarkable.
+
+A small table stands beside the bed, holding a plastic water pitcher and a glass.
+
+The Nurse stands nearby, her expression a mixture of professionalism and concern.
+
+You can also see a Hopstial Room Door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1323"></child>
+        </children>
+    </item>
+    <item nodeId="node-1323">
+        <command xml:space="preserve">greet nurse</command>
+        <result xml:space="preserve">"Hello, how are you feeling?" says the Nurse gently. "You were in a car accident. Take it easy and let me know if you have questions."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1324"></child>
+        </children>
+    </item>
+    <item nodeId="node-1324">
+        <command xml:space="preserve">ask nurse what family</command>
+        <result xml:space="preserve">"I have a husband and a daughter," the Nurse says, her tone softening slightly. "They're everything to me."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1302">
+        <command xml:space="preserve">enter Bed</command>
         <result xml:space="preserve">That's not something you can enter.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1303"></child>
+        </children>
+    </item>
+    <item nodeId="node-1303">
+        <command xml:space="preserve">go to bed</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1304"></child>
+        </children>
+    </item>
+    <item nodeId="node-1304">
+        <command xml:space="preserve">go to hospital room</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1341">
+        <command xml:space="preserve">ask nurse</command>
+        <result xml:space="preserve">You should greet the Nurse first.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1342"></child>
+        </children>
+    </item>
+    <item nodeId="node-1342">
+        <command xml:space="preserve">greet nurse</command>
+        <result xml:space="preserve">"Hello, how are you feeling?" says the Nurse gently. "You were in a car accident. Take it easy and let me know if you have questions."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1343"></child>
+        </children>
+    </item>
+    <item nodeId="node-1343">
+        <command xml:space="preserve">ask nurse how recover</command>
+        <result xml:space="preserve">You output a slurred string of words that couldn't be understood.
+The Nurse says, "I don't think I understand what you just said. Could you try again?"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1344"></child>
+        </children>
+    </item>
+    <item nodeId="node-1344">
+        <command xml:space="preserve">ask nurse how heal</command>
+        <result xml:space="preserve">"You'll need plenty of rest, but you should be better in a few days," the Nurse says.
+
+Over the following weeks, you regain strength and clarity. Eventually, you find yourself standing trial for the events of the crash.
+
+Courtroom
+You find yourself in a sterile, intimidating courtroom. The judge sits on an elevated platform, looking down at you.
+
+You can see a Judge here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1345"></child>
+        </children>
+    </item>
+    <item nodeId="node-1345">
+        <command xml:space="preserve">ask judge deaths</command>
+        <result xml:space="preserve">The Judge frowns. "So you admit to killing them? The evidence is clear." He slams his gavel.
+
+
+
+    *** You are sentenced to life in prison. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1346"></child>
+        </children>
+    </item>
+    <item nodeId="node-1346">
+        <command xml:space="preserve">reatsrt</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1347"></child>
+        </children>
+    </item>
+    <item nodeId="node-1347">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">
+
+
+
+"You wake up in a hospital bed, the faint smell of antiseptic lingering in the air. The walls are pale blue, and medical equipment hums softly nearby. You feel groggy, your body aching from the effects of painkillers."
+
+InteractiveFict
+An Interactive Fiction by Nathan Parker
+Release 1 / Serial number 250126 / Inform 7 v10.1.2 / D
+
+Hospital Room
+The hospital bed looks old but functional, with crisp white sheets that smell faintly of bleach.
+
+A plain white toilet sits in the corner of the room, functional but unremarkable.
+
+A small table stands beside the bed, holding a plastic water pitcher and a glass.
+
+The Nurse stands nearby, her expression a mixture of professionalism and concern.
+
+You can also see a Hopstial Room Door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1348"></child>
+        </children>
+    </item>
+    <item nodeId="node-1348">
+        <command xml:space="preserve">go east</command>
+        <result xml:space="preserve">
+The Hallway
+The hallway is well-lit and empty aside from some generic paintings on the walls.
+
+You can see a Hopstial Room Door, an ODoor and an Exit Door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1349"></child>
+        </children>
+    </item>
+    <item nodeId="node-1349">
+        <command xml:space="preserve">look north</command>
+        <result xml:space="preserve">You see nothing unexpected in that direction.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1350"></child>
+        </children>
+    </item>
+    <item nodeId="node-1350">
+        <command xml:space="preserve">go north</command>
+        <result xml:space="preserve">"Hey, he's awake!" one of the officers shouts.
+
+Courtroom
+You find yourself in a sterile, intimidating courtroom. The judge sits on an elevated platform, looking down at you.
+
+You can see a Judge here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
