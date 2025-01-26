@@ -16,9 +16,7 @@ Chapter 1 - The Hospital Room
 
 When play begins, say "'You wake up in a hospital bed, the faint smell of antiseptic lingering in the air. The walls are pale blue, and medical equipment hums softly nearby. You feel groggy, your body aching from the effects of painkillers."
 
-The player is now in the Hospital Room
-
-The Hospital Room is a room. The Nurse is a person. The nurse is in the Hospital Room. The Nurse has a number called knowledge. The knowledge of the Nurse is 0.
+The Hospital Room is a room. 
 
 Asked about family is a truth state that varies. Asked about crash is a truth state that varies. Asked about pain is a truth state that varies. Asked about deaths is a truth state that varies.
 Asked about recovery is a truth state that varies. 
@@ -27,8 +25,9 @@ Interrogative is a kind of value. The interrogatives are who, what, when, where,
 
 Current question is an interrogative that varies.
 
-
 Understand "ask [someone] [text]" as asking it about.
+
+The Nurse is a person in the Hospital Room. The Nurse has a number called knowledge. The knowledge of the Nurse is 0.
 
 Every turn when the player is in the Hospital Room:
 	increment the knowledge of the Nurse;
@@ -44,14 +43,12 @@ Greeting is an action applying to one thing.
 
 Understand "greet [thing]" or "say hello to [thing]" or "say hi to [thing]" or "wave to [thing]" or "hello [thing]" as greeting.
 
-[This redefines greeting to handle both characters as well as all objects added to the game]
-
 Check greeting:
 	if the noun is the Nurse, say "The nurse is already waiting for your questions." instead;
 	if the noun is not the Nurse, say "There's no point in greeting that." instead.
 
-Carry out greeting the Nurse:
-	if the Nurese is ungreeted:
+If the player greets the Nurse:
+	if the Nurse is ungreeted:
 		now the Nurse is greeted;
 		say "Hello, how are you feeling?' says the Nurse gently. 'You were in a car accident. Take it easy and let me know if you have questions.'";
 	otherwise:
