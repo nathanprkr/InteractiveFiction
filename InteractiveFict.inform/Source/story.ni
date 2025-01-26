@@ -158,16 +158,35 @@ The Metal Door is a door. It is south of the Hallway and north of the Office. Th
 
 Chapter 3 - The Office
 
-The Office is a room.
+The Office is a room. "The office is small, no windows, and a little musty. A single desk dominates the space."
 
-The Office is south of the Office Door.
+The Office is south of the Metal Door.
+
+The Desk is a supporter in the Office. "A heavy wooden desk with a few drawers. A computer sits on top of it, but even thinking about looking at a screen makes your head pound."
+
+The upper drawer and the lower drawer are parts of the Desk.
+The upper drawer and lower drawer are openable closed containers.
+
+The Keys are in the Lower Drawer. The Keys have a truth state called hasKeys. The hasKeys of the Keys is false.
+
+Instead of taking the Keys:
+	now the player carries the Keys;
+	now the hasKeys of the Keys is true;
+	say "You take the keys from the lower drawer.";
+
+Instead of unlocking the Exit Door with the Keys:
+	if the hasKeys of the Keys is true:
+		now the Exit Door is unlocked;
+		say "You use the keys to unlock the exit door.";
+	otherwise:
+		say "You don't have the keys to unlock this door.";
 
 
 Chapter 4 - The Courtroom
 
 The Courtroom is a room. 
 
-The description of the courtroom is "You find yourself in a sterile, intimidating courtroom. The judge sits on an elevated platform, looking down at you."
+The description of the courtroom is "You find yourself in a sterile, intimidating courtroom. The judge sits on an elevated platform, looking down at you, waiting for you to speak."
 
 The Judge is a person in The Courtroom. The Judge has a number called Frustration. The Frustration of the Judge is 0.
 
