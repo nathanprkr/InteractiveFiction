@@ -682,7 +682,299 @@ You can also see a Metal Door here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1381"></child>
+            <child nodeId="node-1628"></child>
         </children>
+    </item>
+    <item nodeId="node-1628">
+        <command xml:space="preserve">open upper drawer</command>
+        <result xml:space="preserve">You open the upper drawer.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1629"></child>
+        </children>
+    </item>
+    <item nodeId="node-1629">
+        <command xml:space="preserve">search upper drawer</command>
+        <result xml:space="preserve">The upper drawer is empty.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1630"></child>
+        </children>
+    </item>
+    <item nodeId="node-1630">
+        <command xml:space="preserve">search lower drawer</command>
+        <result xml:space="preserve">You can't see inside, since the lower drawer is closed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1631"></child>
+        </children>
+    </item>
+    <item nodeId="node-1631">
+        <command xml:space="preserve">open lower drawer</command>
+        <result xml:space="preserve">You open the lower drawer, revealing a Keys.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1632"></child>
+        </children>
+    </item>
+    <item nodeId="node-1632">
+        <command xml:space="preserve">pick up keys</command>
+        <result xml:space="preserve">You take the keys from the lower drawer.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1633"></child>
+        </children>
+    </item>
+    <item nodeId="node-1633">
+        <command xml:space="preserve">go north</command>
+        <result xml:space="preserve">
+The Hallway
+The hallway is well-lit and empty aside from some generic paintings on the walls. As you step into the hallway, you notice a group of police officers standing to the north, their eyes fixed on you
+
+You can see a Metal Door, a Hopstial Room Door and an Exit Door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1634"></child>
+        </children>
+    </item>
+    <item nodeId="node-1634">
+        <command xml:space="preserve">go to metal door</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1635"></child>
+        </children>
+    </item>
+    <item nodeId="node-1635">
+        <command xml:space="preserve">open metal door</command>
+        <result xml:space="preserve">That's already open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1636"></child>
+        </children>
+    </item>
+    <item nodeId="node-1636">
+        <command xml:space="preserve">open exit door</command>
+        <result xml:space="preserve">The door is locked. You'll need a key to open it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1637"></child>
+        </children>
+    </item>
+    <item nodeId="node-1637">
+        <command xml:space="preserve">unlock exit door</command>
+        <result xml:space="preserve">(with the Keys)
+You use the keys to unlock the exit door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1638"></child>
+        </children>
+    </item>
+    <item nodeId="node-1638">
+        <command xml:space="preserve">open exit door</command>
+        <result xml:space="preserve">You open the Exit Door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1639"></child>
+        </children>
+    </item>
+    <item nodeId="node-1639">
+        <command xml:space="preserve">go east</command>
+        <result xml:space="preserve">You walk outside, the sun shines on your face. Still feeling the pain meds, you stumble away, and escape for good.
+
+
+
+    *** You escaped the hospital. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1640"></child>
+        </children>
+    </item>
+    <item nodeId="node-1640">
+        <command xml:space="preserve">go out the exit door</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1641"></child>
+        </children>
+    </item>
+    <item nodeId="node-1641">
+        <command xml:space="preserve">go through the exit door</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1658"></child>
+        </children>
+    </item>
+    <item nodeId="node-1658">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">
+
+
+
+"You wake up in a hospital bed, the faint smell of antiseptic lingering in the air. The walls are pale blue, and medical equipment hums softly nearby. You feel groggy, your body aching from the effects of painkillers."
+
+InteractiveFict
+An Interactive Fiction by Nathan Parker
+Release 1 / Serial number 250126 / Inform 7 v10.1.2 / D
+
+Hospital Room
+The hospital bed looks old but functional, with crisp white sheets that smell faintly of bleach.
+
+A plain white toilet sits in the corner of the room, functional but unremarkable.
+
+A small table stands beside the bed, holding a plastic water pitcher and a glass.
+
+The Nurse stands nearby, her expression a mixture of professionalism and concern.
+
+You can also see a Hopstial Room Door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1659"></child>
+        </children>
+    </item>
+    <item nodeId="node-1659">
+        <command xml:space="preserve">greet nurse</command>
+        <result xml:space="preserve">"Hello, how are you feeling?" says the Nurse gently. "You were in a car accident. Take it easy and let me know if you have questions."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1660"></child>
+        </children>
+    </item>
+    <item nodeId="node-1660">
+        <command xml:space="preserve">ask nurse how heal</command>
+        <result xml:space="preserve">"You'll need plenty of rest, but you should be better in a few days," the Nurse says.
+
+Over the following weeks, you regain strength and clarity. Eventually, you find yourself standing trial for the events of the crash.
+
+Courtroom
+You find yourself in a sterile, intimidating courtroom. The judge sits on an elevated platform, looking down at you, waiting for you to speak.
+
+You can see a Judge here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1661"></child>
+        </children>
+    </item>
+    <item nodeId="node-1661">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Hospital Room
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1662"></child>
+        </children>
+    </item>
+    <item nodeId="node-1662">
+        <command xml:space="preserve">go east</command>
+        <result xml:space="preserve">
+The Hallway
+The hallway is well-lit and empty aside from some generic paintings on the walls. As you step into the hallway, you notice a group of police officers standing to the north, their eyes fixed on you
+
+You can see a Hopstial Room Door, a Metal Door and an Exit Door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1663"></child>
+        </children>
+    </item>
+    <item nodeId="node-1663">
+        <command xml:space="preserve">go south</command>
+        <result xml:space="preserve">(first opening the Metal Door)
+
+Office
+The office is small, no windows, and a little musty. A single desk dominates the space.
+
+A heavy wooden desk with a few drawers. A computer sits on top of it, but even thinking about looking at a screen makes your head pound.
+
+You can also see a Metal Door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1664"></child>
+        </children>
+    </item>
+    <item nodeId="node-1664">
+        <command xml:space="preserve">go north</command>
+        <result xml:space="preserve">
+The Hallway
+The hallway is well-lit and empty aside from some generic paintings on the walls. As you step into the hallway, you notice a group of police officers standing to the north, their eyes fixed on you
+
+You can see a Metal Door, a Hopstial Room Door and an Exit Door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1665"></child>
+        </children>
+    </item>
+    <item nodeId="node-1665">
+        <command xml:space="preserve">go north</command>
+        <result xml:space="preserve">"Hey, he's awake!" one of the officers shouts. They tackle you, and you are transported to jail. You are placed on trial for your crimes.
+
+Courtroom
+You find yourself in a sterile, intimidating courtroom. The judge sits on an elevated platform, looking down at you, waiting for you to speak.
+
+You can see a Judge here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1666"></child>
+        </children>
+    </item>
+    <item nodeId="node-1666">
+        <command xml:space="preserve">ask judge what charges</command>
+        <result xml:space="preserve">"You are charged with manslaughter for the deaths of a father and daughter while driving under the influence," the Judge says grimly.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1667"></child>
+        </children>
+    </item>
+    <item nodeId="node-1667">
+        <command xml:space="preserve">ask judge what evidence</command>
+        <result xml:space="preserve">"The evidence includes your blood alcohol content, witness statements, and the damage to your vehicle," the Judge explains.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1668"></child>
+        </children>
+    </item>
+    <item nodeId="node-1668">
+        <command xml:space="preserve">ask judge what driver</command>
+        <result xml:space="preserve">The Judge ponders for a moment. "I guess you're right, there is no evidence you were actually driving the car." He dismisses the case.
+
+
+
+    *** You were released. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1381">
         <command xml:space="preserve">go to desk</command>

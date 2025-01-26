@@ -31,15 +31,15 @@
     </dict>
     <key>4</key><dict>
         <key>Filename</key><string>/Users/nathan/InteractiveFiction/InteractiveFict.inform/Source/story.ni</string>
-        <key>Line</key><integer>159</integer>
-        <key>Title</key><string>Chapter 3 - The Office</string>
+        <key>Line</key><integer>161</integer>
+        <key>Title</key><string>Chapter 4 - The Office</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>5</key><dict>
         <key>Filename</key><string>/Users/nathan/InteractiveFiction/InteractiveFict.inform/Source/story.ni</string>
-        <key>Line</key><integer>185</integer>
-        <key>Title</key><string>Chapter 4 - The Courtroom</string>
+        <key>Line</key><integer>187</integer>
+        <key>Title</key><string>Chapter 6 - The Courtroom</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>

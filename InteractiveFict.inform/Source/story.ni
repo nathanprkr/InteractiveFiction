@@ -128,7 +128,7 @@ To respond to the question:
 
 Chapter 2 - The Hallway
 
-The Hallway is a room. "The hallway is well-lit and empty aside from some generic paintings on the walls. As you step into the hallway, you notice a group of police officers standing to the north, their eyes fixed on you"
+The Hallway is a room. "The hallway is well-lit and empty aside from some generic paintings on the walls. As you step into the hallway, you notice a group of police officers standing to the north, their eyes fixed on you. To the south is a metal door leading to an office."
 
 The Hallway is east of the Hopstial Room Door.
 
@@ -140,6 +140,8 @@ Instead of going north from the Hallway:
 	stop the action;
 
 The Exit Door is a locked door. It is east of the Hallway. The description of the Exit Door is "A sturdy door with a heavy lock."
+
+East of the exit door is the Parking Lot.
 
 Instead of opening the Exit Door:
 	if the Exit Door is locked:
@@ -156,7 +158,7 @@ Instead of going through the Exit Door:
 
 The Metal Door is a door. It is south of the Hallway and north of the Office. The Metal Door is closed. The description of the Metal Door is "A plain metal door leading to an office."
 
-Chapter 3 - The Office
+Chapter 4 - The Office
 
 The Office is a room. "The office is small, no windows, and a little musty. A single desk dominates the space."
 
@@ -182,7 +184,7 @@ Instead of unlocking the Exit Door with the Keys:
 		say "You don't have the keys to unlock this door.";
 
 
-Chapter 4 - The Courtroom
+Chapter 6 - The Courtroom
 
 The Courtroom is a room. 
 
