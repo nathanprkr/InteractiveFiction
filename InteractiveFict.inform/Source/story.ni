@@ -38,7 +38,7 @@ Instead of eating the sand:
 	say "You eat the sand.";
 	if the Sand Counter is 15:
 		say "The nurse watches, distrubed as you shovel handful after handful of sand through your parched lips. She eventually leaves, and you continue to eat sand to your hearts content.";
-		end the story finally saying "You win. Good job eating sand";
+		end the story finally saying "You win. Good job eating sand.";
 	
 The Hopstial Room Door is a door. The Hopstial Room Door is east of the Hospital Room and west of The Hallway. The Hopstial Room Door is open. The description of the Hopstial Room Door is "The door is wide open, leading to what appears to be a brightly lit hallway." 
 

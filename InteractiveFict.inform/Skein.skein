@@ -28,6 +28,7 @@ You can also see a Hopstial Room Door here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1341"></child>
+            <child nodeId="node-1698"></child>
             <child nodeId="node-1300"></child>
             <child nodeId="node-1325"></child>
             <child nodeId="node-1376"></child>
@@ -1380,6 +1381,184 @@ You can also see a Hopstial Room Door here.
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1698">
+        <command xml:space="preserve">eat sand</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1699"></child>
+        </children>
+    </item>
+    <item nodeId="node-1699">
+        <command xml:space="preserve">look at table</command>
+        <result xml:space="preserve">The table has a single drawer, currently closed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1700"></child>
+        </children>
+    </item>
+    <item nodeId="node-1700">
+        <command xml:space="preserve">open drawer</command>
+        <result xml:space="preserve">You open the drawer, revealing a sand.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1701"></child>
+        </children>
+    </item>
+    <item nodeId="node-1701">
+        <command xml:space="preserve">eat sand</command>
+        <result xml:space="preserve">You eat the sand.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1702"></child>
+        </children>
+    </item>
+    <item nodeId="node-1702">
+        <command xml:space="preserve">eat sand</command>
+        <result xml:space="preserve">You eat the sand.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1703"></child>
+        </children>
+    </item>
+    <item nodeId="node-1703">
+        <command xml:space="preserve">eat sand</command>
+        <result xml:space="preserve">You eat the sand.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1704"></child>
+        </children>
+    </item>
+    <item nodeId="node-1704">
+        <command xml:space="preserve">eat sand</command>
+        <result xml:space="preserve">You eat the sand.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1705"></child>
+        </children>
+    </item>
+    <item nodeId="node-1705">
+        <command xml:space="preserve">eat sand</command>
+        <result xml:space="preserve">You eat the sand.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1706"></child>
+        </children>
+    </item>
+    <item nodeId="node-1706">
+        <command xml:space="preserve">eat sand</command>
+        <result xml:space="preserve">You eat the sand.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1707"></child>
+        </children>
+    </item>
+    <item nodeId="node-1707">
+        <command xml:space="preserve">eat sand</command>
+        <result xml:space="preserve">You eat the sand.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1708"></child>
+        </children>
+    </item>
+    <item nodeId="node-1708">
+        <command xml:space="preserve">eat sand</command>
+        <result xml:space="preserve">You eat the sand.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1709"></child>
+        </children>
+    </item>
+    <item nodeId="node-1709">
+        <command xml:space="preserve">eat sand</command>
+        <result xml:space="preserve">You eat the sand.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1710"></child>
+        </children>
+    </item>
+    <item nodeId="node-1710">
+        <command xml:space="preserve">eat sand</command>
+        <result xml:space="preserve">You eat the sand.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1711"></child>
+        </children>
+    </item>
+    <item nodeId="node-1711">
+        <command xml:space="preserve">eat sand</command>
+        <result xml:space="preserve">You eat the sand.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1712"></child>
+        </children>
+    </item>
+    <item nodeId="node-1712">
+        <command xml:space="preserve">eat sand</command>
+        <result xml:space="preserve">You eat the sand.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1713"></child>
+        </children>
+    </item>
+    <item nodeId="node-1713">
+        <command xml:space="preserve">eat sand</command>
+        <result xml:space="preserve">You eat the sand.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1714"></child>
+        </children>
+    </item>
+    <item nodeId="node-1714">
+        <command xml:space="preserve">eat sand</command>
+        <result xml:space="preserve">You eat the sand.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1715"></child>
+        </children>
+    </item>
+    <item nodeId="node-1715">
+        <command xml:space="preserve">eat sand</command>
+        <result xml:space="preserve">You eat the sand.
+The nurse watches, distrubed as you shovel handful after handful of sand through your parched lips. She eventually leaves, and you continue to eat sand to your hearts content.
+
+
+
+    *** You win. Good job eating sand ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1716"></child>
+        </children>
+    </item>
+    <item nodeId="node-1716">
+        <command xml:space="preserve">eat sand</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1341">
