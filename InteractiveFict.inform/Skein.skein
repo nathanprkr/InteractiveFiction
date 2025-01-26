@@ -975,6 +975,41 @@ You can see a Judge here.
 Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1669"></child>
+        </children>
+    </item>
+    <item nodeId="node-1669">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Courtroom
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1670"></child>
+        </children>
+    </item>
+    <item nodeId="node-1670">
+        <command xml:space="preserve">ask about nurse</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1671"></child>
+        </children>
+    </item>
+    <item nodeId="node-1671">
+        <command xml:space="preserve">ask judge about nurse</command>
+        <result xml:space="preserve">The Judge starts to respond, but suddenly, the Nurse stands up from the back of the courtroom. "You don't get to walk away from this!" she screams, pulling out a gun and shooting you dead.
+
+
+
+    *** The Nurse killed you. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1381">
         <command xml:space="preserve">go to desk</command>

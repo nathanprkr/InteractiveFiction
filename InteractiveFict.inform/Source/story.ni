@@ -184,10 +184,10 @@ Instead of unlocking the Exit Door with the Keys:
 		say "You don't have the keys to unlock this door.";
 
 
-Chapter 6 - The Courtroom
+Chapter 5 - The Courtroom
 
 The Courtroom is a room. 
-
+x
 The description of the courtroom is "You find yourself in a sterile, intimidating courtroom. The judge sits on an elevated platform, looking down at you, waiting for you to speak."
 
 The Judge is a person in The Courtroom. The Judge has a number called Frustration. The Frustration of the Judge is 0.
