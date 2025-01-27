@@ -1,5 +1,5 @@
 Debugging log of inform7
-inform7 was called as: /Applications/Inform.app/Contents/MacOS/ni -internal /Applications/Inform.app/Contents/Resources/Internal -external /Users/nathan/Library/Inform -project /Users/nathan/InteractiveFiction/InteractiveFict.inform -format=ulx
+inform7 was called as: /Applications/Inform.app/Contents/MacOS/ni -internal /Applications/Inform.app/Contents/Resources/Internal -external /Users/nathan/Library/Inform -project /Users/nathan/InteractiveFiction/InteractiveFict.inform -format=ulx -release
 Reading further switches from file: <no file>
 Completed expert settings file
 Using Inform kit 'BasicInformKit' (priority 0).
@@ -245,7 +245,7 @@ HTML tag stack:
     2. html (opened at line 236 of '/Users/tobynelson/Code/Inform Core/inweb/foundation-module/Chapter 5/HTML.w')
 
 
-Back end elapsed time: 91cs
+Back end elapsed time: 89cs
 Total of 101 files written as streams.
 Vacant escapes: %: ..CDE.GH..K.M.O.QR.TU...YZab..e..h.jklm.o.qr......yz0123456789
 Vacant escapes: $: .....F...J..........UVW.....................s.u..x.........789
