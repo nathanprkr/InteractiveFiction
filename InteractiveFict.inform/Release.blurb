@@ -13,8 +13,8 @@ release to "/Users/nathan/InteractiveFiction/InteractiveFict.materials/Release"
 storyfile leafname "The Nurse.gblorb"
 storyfile "/Users/nathan/InteractiveFiction/InteractiveFict.inform/Build/output.ulx" include
 ifiction "/Users/nathan/InteractiveFiction/InteractiveFict.inform/Metadata.iFiction" include
-cover "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/DefaultCover.jpg"
-picture 1 "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/DefaultCover.jpg"
+cover "/Users/nathan/InteractiveFiction/InteractiveFict.materials/Cover.jpg"
+picture 1 "/Users/nathan/InteractiveFiction/InteractiveFict.materials/Cover.jpg"
 
 ! Placeholder variables
 
@@ -27,11 +27,29 @@ placeholder [BLURB] = "A work of interactive fiction."
 
 ! Other material to release
 
-status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
-status alternative ||Using 'Release along with a website'&nbsp;<a href=inform:/doc403.html><img border=0 src=inform:/doc_images/help.png></a>||
-status alternative ||Using 'Release along with an interpreter', for in-browser play on your website&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
+source public
+
+! Website instructions
+
+placeholder [ENCODEDSTORYFILE] = "The Nurse.gblorb.js"
+template path "/Users/nathan/InteractiveFiction/InteractiveFict.materials/Templates"
+template path "/Users/nathan/InteractiveFiction/InteractiveFict.materials/Templates"
+template path "/Users/nathan/Library/Inform/Templates"
+template path "/Applications/Inform.app/Contents/Resources/Internal/Templates"
+placeholder [INTERPRETERSCRIPTS] = " "
+interpreter "Quixe" "g"
+base64 "/Users/nathan/InteractiveFiction/InteractiveFict.inform/Build/output.ulx" to "/Users/nathan/InteractiveFiction/InteractiveFict.materials/Release/interpreter/The Nurse.gblorb.js"
+
+! Website instructions
+
+template path "/Users/nathan/InteractiveFiction/InteractiveFict.materials/Templates"
+template path "/Users/nathan/InteractiveFiction/InteractiveFict.materials/Templates"
+template path "/Users/nathan/Library/Inform/Templates"
+template path "/Applications/Inform.app/Contents/Resources/Internal/Templates"
+css
+website "Standard"
+status instruction ||&nbsp;<a href="source:story.ni#line3"><img border=0 src=inform:/doc_images/Reveal.png></a>||
 status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc399.html><img border=0 src=inform:/doc_images/help.png></a>||
-status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc410.html><img border=0 src=inform:/doc_images/help.png></a>||
 status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc409.html><img border=0 src=inform:/doc_images/help.png></a>||
 status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc410.html><img border=0 src=inform:/doc_images/help.png></a>||
 status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc402.html><img border=0 src=inform:/doc_images/help.png></a>||
