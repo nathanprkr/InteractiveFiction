@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 
-<Skein rootNode="node-1002">
+<Skein rootNode="node-1719">
     <generator>Inform Mac Client (Inform version 1.82/6.41/10.1.2)</generator>
-    <item nodeId="node-1002">
+    <item nodeId="node-1719">
         <command xml:space="preserve">InteractiveFict</command>
         <result xml:space="preserve">
 
@@ -27,273 +27,273 @@ You can also see a Hopstial Room Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1341"></child>
-            <child nodeId="node-1698"></child>
-            <child nodeId="node-1300"></child>
-            <child nodeId="node-1325"></child>
-            <child nodeId="node-1376"></child>
-            <child nodeId="node-1272"></child>
-            <child nodeId="node-1684"></child>
-            <child nodeId="node-1681"></child>
-            <child nodeId="node-1691"></child>
-            <child nodeId="node-1672"></child>
+        <children><child nodeId="node-1869"></child>
+            <child nodeId="node-1850"></child>
+            <child nodeId="node-1839"></child>
+            <child nodeId="node-1790"></child>
+            <child nodeId="node-1787"></child>
+            <child nodeId="node-1745"></child>
+            <child nodeId="node-1738"></child>
+            <child nodeId="node-1735"></child>
+            <child nodeId="node-1728"></child>
+            <child nodeId="node-1720"></child>
         </children>
     </item>
-    <item nodeId="node-1672">
+    <item nodeId="node-1720">
         <command xml:space="preserve">use the toilet</command>
         <result xml:space="preserve">You use the toilet. It's a small relief amidst the strange environment.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1675"></child>
-            <child nodeId="node-1673"></child>
+        <children><child nodeId="node-1722"></child>
+            <child nodeId="node-1721"></child>
         </children>
     </item>
-    <item nodeId="node-1673">
+    <item nodeId="node-1721">
         <command xml:space="preserve">use the toilet</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1675">
+    <item nodeId="node-1722">
         <command xml:space="preserve">go to desk</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1676"></child>
+        <children><child nodeId="node-1723"></child>
         </children>
     </item>
-    <item nodeId="node-1676">
+    <item nodeId="node-1723">
         <command xml:space="preserve">go to the table</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1677"></child>
+        <children><child nodeId="node-1724"></child>
         </children>
     </item>
-    <item nodeId="node-1677">
+    <item nodeId="node-1724">
         <command xml:space="preserve">search table</command>
         <result xml:space="preserve">There is nothing on the table.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1678"></child>
+        <children><child nodeId="node-1725"></child>
         </children>
     </item>
-    <item nodeId="node-1678">
+    <item nodeId="node-1725">
         <command xml:space="preserve">describe table</command>
         <result xml:space="preserve">You see nothing special about the table.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1679"></child>
+        <children><child nodeId="node-1726"></child>
         </children>
     </item>
-    <item nodeId="node-1679">
+    <item nodeId="node-1726">
         <command xml:space="preserve">table</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1680"></child>
+        <children><child nodeId="node-1727"></child>
         </children>
     </item>
-    <item nodeId="node-1680">
+    <item nodeId="node-1727">
         <command xml:space="preserve">look at table</command>
         <result xml:space="preserve">You see nothing special about the table.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1691">
+    <item nodeId="node-1728">
         <command xml:space="preserve">search the drawer</command>
         <result xml:space="preserve">You can't see inside, since the drawer is closed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1692"></child>
+        <children><child nodeId="node-1729"></child>
         </children>
     </item>
-    <item nodeId="node-1692">
+    <item nodeId="node-1729">
         <command xml:space="preserve">open the drawer</command>
         <result xml:space="preserve">You open the drawer, revealing a sand.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1693"></child>
+        <children><child nodeId="node-1730"></child>
         </children>
     </item>
-    <item nodeId="node-1693">
+    <item nodeId="node-1730">
         <command xml:space="preserve">eat sand</command>
         <result xml:space="preserve">You eat the sand.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1694"></child>
+        <children><child nodeId="node-1731"></child>
         </children>
     </item>
-    <item nodeId="node-1694">
+    <item nodeId="node-1731">
         <command xml:space="preserve">eat sand</command>
         <result xml:space="preserve">You eat the sand.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1695"></child>
+        <children><child nodeId="node-1732"></child>
         </children>
     </item>
-    <item nodeId="node-1695">
+    <item nodeId="node-1732">
         <command xml:space="preserve">eat sand</command>
         <result xml:space="preserve">You eat the sand.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1696"></child>
+        <children><child nodeId="node-1733"></child>
         </children>
     </item>
-    <item nodeId="node-1696">
+    <item nodeId="node-1733">
         <command xml:space="preserve">eat sand</command>
         <result xml:space="preserve">You eat the sand.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1697"></child>
+        <children><child nodeId="node-1734"></child>
         </children>
     </item>
-    <item nodeId="node-1697">
+    <item nodeId="node-1734">
         <command xml:space="preserve">eat sand</command>
         <result xml:space="preserve">You eat the sand.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1681">
+    <item nodeId="node-1735">
         <command xml:space="preserve">search table</command>
         <result xml:space="preserve">There is nothing on the table.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1682"></child>
+        <children><child nodeId="node-1736"></child>
         </children>
     </item>
-    <item nodeId="node-1682">
+    <item nodeId="node-1736">
         <command xml:space="preserve">look at table</command>
         <result xml:space="preserve">The table has a single drawer, currently closed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1683"></child>
+        <children><child nodeId="node-1737"></child>
         </children>
     </item>
-    <item nodeId="node-1683">
+    <item nodeId="node-1737">
         <command xml:space="preserve">open drawer</command>
         <result xml:space="preserve">It isn't something you can open.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1684">
+    <item nodeId="node-1738">
         <command xml:space="preserve">look at table</command>
         <result xml:space="preserve">The table has a single drawer, currently closed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1685"></child>
+        <children><child nodeId="node-1739"></child>
         </children>
     </item>
-    <item nodeId="node-1685">
+    <item nodeId="node-1739">
         <command xml:space="preserve">open drawer</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1686"></child>
+        <children><child nodeId="node-1740"></child>
         </children>
     </item>
-    <item nodeId="node-1686">
+    <item nodeId="node-1740">
         <command xml:space="preserve">open drawer</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1687"></child>
+        <children><child nodeId="node-1741"></child>
         </children>
     </item>
-    <item nodeId="node-1687">
+    <item nodeId="node-1741">
         <command xml:space="preserve">go to table</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1688"></child>
+        <children><child nodeId="node-1742"></child>
         </children>
     </item>
-    <item nodeId="node-1688">
+    <item nodeId="node-1742">
         <command xml:space="preserve">search drawer</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1689"></child>
+        <children><child nodeId="node-1743"></child>
         </children>
     </item>
-    <item nodeId="node-1689">
+    <item nodeId="node-1743">
         <command xml:space="preserve">search the drawer</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1690"></child>
+        <children><child nodeId="node-1744"></child>
         </children>
     </item>
-    <item nodeId="node-1690">
+    <item nodeId="node-1744">
         <command xml:space="preserve">open the drawer</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1272">
+    <item nodeId="node-1745">
         <command xml:space="preserve">greet nurse</command>
         <result xml:space="preserve">"Hello, how are you feeling?" says the Nurse gently. "You were in a car accident. Take it easy and let me know if you have questions."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1306"></child>
-            <child nodeId="node-1273"></child>
-            <child nodeId="node-1286"></child>
-            <child nodeId="node-1328"></child>
-            <child nodeId="node-1284"></child>
+        <children><child nodeId="node-1784"></child>
+            <child nodeId="node-1774"></child>
+            <child nodeId="node-1754"></child>
+            <child nodeId="node-1747"></child>
+            <child nodeId="node-1746"></child>
         </children>
     </item>
-    <item nodeId="node-1284">
+    <item nodeId="node-1746">
         <command xml:space="preserve">say hi to nurse</command>
         <result xml:space="preserve">The nurse is waiting for your questions 1.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1328">
+    <item nodeId="node-1747">
         <command xml:space="preserve">ask nurse what pain</command>
         <result xml:space="preserve">"I know you're in pain, but I can't safely increase your dosage," the Nurse says gently.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1329"></child>
+        <children><child nodeId="node-1748"></child>
         </children>
     </item>
-    <item nodeId="node-1329">
+    <item nodeId="node-1748">
         <command xml:space="preserve">stop talking to nurse</command>
         <result xml:space="preserve">You stop your conversation with the Nurse and sit back in silence.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1330"></child>
+        <children><child nodeId="node-1749"></child>
         </children>
     </item>
-    <item nodeId="node-1330">
+    <item nodeId="node-1749">
         <command xml:space="preserve">go east</command>
         <result xml:space="preserve">
 The Hallway
@@ -303,55 +303,55 @@ You can see a Hopstial Room Door, an ODoor and an Exit Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1331"></child>
+        <children><child nodeId="node-1750"></child>
         </children>
     </item>
-    <item nodeId="node-1331">
+    <item nodeId="node-1750">
         <command xml:space="preserve">go to exit door</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1332"></child>
+        <children><child nodeId="node-1751"></child>
         </children>
     </item>
-    <item nodeId="node-1332">
+    <item nodeId="node-1751">
         <command xml:space="preserve">go to Exit Door</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1333"></child>
+        <children><child nodeId="node-1752"></child>
         </children>
     </item>
-    <item nodeId="node-1333">
+    <item nodeId="node-1752">
         <command xml:space="preserve">go east</command>
         <result xml:space="preserve">(first opening the Exit Door)
 You can't, since the Exit Door leads nowhere.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1334"></child>
+        <children><child nodeId="node-1753"></child>
         </children>
     </item>
-    <item nodeId="node-1334">
+    <item nodeId="node-1753">
         <command xml:space="preserve">open exit door</command>
         <result xml:space="preserve">That's already open.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1286">
+    <item nodeId="node-1754">
         <command xml:space="preserve">ask nurse what family</command>
         <result xml:space="preserve">"I have a husband and a daughter," the Nurse says, her tone softening slightly. "They're everything to me."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1287"></child>
-            <child nodeId="node-1311"></child>
+        <children><child nodeId="node-1761"></child>
+            <child nodeId="node-1755"></child>
         </children>
     </item>
-    <item nodeId="node-1311">
+    <item nodeId="node-1755">
         <command xml:space="preserve">ask nurse what deaths</command>
         <result xml:space="preserve">"A father and daughter lost their lives in the crash," the Nurse says, her voice wavering slightly.
 
@@ -366,10 +366,10 @@ The Nurse's face hardens as realization dawns. "You... you killed my husband and
 Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1312"></child>
+        <children><child nodeId="node-1756"></child>
         </children>
     </item>
-    <item nodeId="node-1312">
+    <item nodeId="node-1756">
         <command xml:space="preserve">restart</command>
         <result xml:space="preserve">
 
@@ -394,89 +394,89 @@ You can also see a Hopstial Room Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1313"></child>
+        <children><child nodeId="node-1757"></child>
         </children>
     </item>
-    <item nodeId="node-1313">
+    <item nodeId="node-1757">
         <command xml:space="preserve">greet nurse</command>
         <result xml:space="preserve">"Hello, how are you feeling?" says the Nurse gently. "You were in a car accident. Take it easy and let me know if you have questions."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1314"></child>
+        <children><child nodeId="node-1758"></child>
         </children>
     </item>
-    <item nodeId="node-1314">
+    <item nodeId="node-1758">
         <command xml:space="preserve">stop talking to nurse</command>
         <result xml:space="preserve">You stop your conversation with the Nurse and sit back in silence.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1315"></child>
+        <children><child nodeId="node-1759"></child>
         </children>
     </item>
-    <item nodeId="node-1315">
+    <item nodeId="node-1759">
         <command xml:space="preserve">go to bed</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1316"></child>
+        <children><child nodeId="node-1760"></child>
         </children>
     </item>
-    <item nodeId="node-1316">
+    <item nodeId="node-1760">
         <command xml:space="preserve">enter bed</command>
         <result xml:space="preserve">That's not something you can enter.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1287">
+    <item nodeId="node-1761">
         <command xml:space="preserve">ask nurse family</command>
         <result xml:space="preserve">There is no reply.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1288"></child>
+        <children><child nodeId="node-1762"></child>
         </children>
     </item>
-    <item nodeId="node-1288">
+    <item nodeId="node-1762">
         <command xml:space="preserve">greet nurse</command>
         <result xml:space="preserve">The Nurse is waiting for your questions 2.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1289"></child>
+        <children><child nodeId="node-1763"></child>
         </children>
     </item>
-    <item nodeId="node-1289">
+    <item nodeId="node-1763">
         <command xml:space="preserve">leave nurse</command>
         <result xml:space="preserve">I only understood you as far as wanting to leave.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1290"></child>
+        <children><child nodeId="node-1764"></child>
         </children>
     </item>
-    <item nodeId="node-1290">
+    <item nodeId="node-1764">
         <command xml:space="preserve">stop nurse</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1291"></child>
+        <children><child nodeId="node-1765"></child>
         </children>
     </item>
-    <item nodeId="node-1291">
+    <item nodeId="node-1765">
         <command xml:space="preserve">stop</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1292"></child>
+        <children><child nodeId="node-1766"></child>
         </children>
     </item>
-    <item nodeId="node-1292">
+    <item nodeId="node-1766">
         <command xml:space="preserve">go east</command>
         <result xml:space="preserve">
 The Hallway
@@ -484,19 +484,19 @@ You can see a Hopstial Room Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1293"></child>
+        <children><child nodeId="node-1767"></child>
         </children>
     </item>
-    <item nodeId="node-1293">
+    <item nodeId="node-1767">
         <command xml:space="preserve">search room</command>
         <result xml:space="preserve">You find nothing of interest.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1294"></child>
+        <children><child nodeId="node-1768"></child>
         </children>
     </item>
-    <item nodeId="node-1294">
+    <item nodeId="node-1768">
         <command xml:space="preserve">go west</command>
         <result xml:space="preserve">
 Hospital Room
@@ -512,89 +512,89 @@ You can also see a Hopstial Room Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1295"></child>
+        <children><child nodeId="node-1769"></child>
         </children>
     </item>
-    <item nodeId="node-1295">
+    <item nodeId="node-1769">
         <command xml:space="preserve">search room</command>
         <result xml:space="preserve">You find nothing of interest.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1296"></child>
+        <children><child nodeId="node-1770"></child>
         </children>
     </item>
-    <item nodeId="node-1296">
+    <item nodeId="node-1770">
         <command xml:space="preserve">go to toilet</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1297"></child>
+        <children><child nodeId="node-1771"></child>
         </children>
     </item>
-    <item nodeId="node-1297">
+    <item nodeId="node-1771">
         <command xml:space="preserve">go to table</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1298"></child>
+        <children><child nodeId="node-1772"></child>
         </children>
     </item>
-    <item nodeId="node-1298">
+    <item nodeId="node-1772">
         <command xml:space="preserve">go to bed</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1299"></child>
+        <children><child nodeId="node-1773"></child>
         </children>
     </item>
-    <item nodeId="node-1299">
+    <item nodeId="node-1773">
         <command xml:space="preserve">get in bed</command>
         <result xml:space="preserve">That's not something you can enter.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1273">
+    <item nodeId="node-1774">
         <command xml:space="preserve">ask nurse what deaths</command>
         <result xml:space="preserve">There is no reply.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1274"></child>
+        <children><child nodeId="node-1775"></child>
         </children>
     </item>
-    <item nodeId="node-1274">
+    <item nodeId="node-1775">
         <command xml:space="preserve">ask nurse how heal</command>
         <result xml:space="preserve">There is no reply.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1275"></child>
+        <children><child nodeId="node-1776"></child>
         </children>
     </item>
-    <item nodeId="node-1275">
+    <item nodeId="node-1776">
         <command xml:space="preserve">ask nurse what family</command>
         <result xml:space="preserve">There is no reply.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1276"></child>
+        <children><child nodeId="node-1777"></child>
         </children>
     </item>
-    <item nodeId="node-1276">
+    <item nodeId="node-1777">
         <command xml:space="preserve">ask nurse about family</command>
         <result xml:space="preserve">There is no reply.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1277"></child>
+        <children><child nodeId="node-1778"></child>
         </children>
     </item>
-    <item nodeId="node-1277">
+    <item nodeId="node-1778">
         <command xml:space="preserve">go east</command>
         <result xml:space="preserve">
 The Hallway
@@ -602,28 +602,28 @@ You can see a Hopstial Room Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1278"></child>
+        <children><child nodeId="node-1779"></child>
         </children>
     </item>
-    <item nodeId="node-1278">
+    <item nodeId="node-1779">
         <command xml:space="preserve">go east</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1279"></child>
+        <children><child nodeId="node-1780"></child>
         </children>
     </item>
-    <item nodeId="node-1279">
+    <item nodeId="node-1780">
         <command xml:space="preserve">go north</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1280"></child>
+        <children><child nodeId="node-1781"></child>
         </children>
     </item>
-    <item nodeId="node-1280">
+    <item nodeId="node-1781">
         <command xml:space="preserve">go west</command>
         <result xml:space="preserve">
 Hospital Room
@@ -639,58 +639,58 @@ You can also see a Hopstial Room Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1281"></child>
+        <children><child nodeId="node-1782"></child>
         </children>
     </item>
-    <item nodeId="node-1281">
+    <item nodeId="node-1782">
         <command xml:space="preserve">ask nurse how family</command>
         <result xml:space="preserve">There is no reply.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1282"></child>
+        <children><child nodeId="node-1783"></child>
         </children>
     </item>
-    <item nodeId="node-1282">
+    <item nodeId="node-1783">
         <command xml:space="preserve">greet nurse</command>
         <result xml:space="preserve">The nurse is already waiting for your questions.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1306">
+    <item nodeId="node-1784">
         <command xml:space="preserve">ask nurse accident</command>
         <result xml:space="preserve">There is no reply.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1307"></child>
+        <children><child nodeId="node-1785"></child>
         </children>
     </item>
-    <item nodeId="node-1307">
+    <item nodeId="node-1785">
         <command xml:space="preserve">ask nurse</command>
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1308"></child>
+        <children><child nodeId="node-1786"></child>
         </children>
     </item>
-    <item nodeId="node-1308">
+    <item nodeId="node-1786">
         <command xml:space="preserve">ask nurse what family</command>
         <result xml:space="preserve">There is no reply.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1376">
+    <item nodeId="node-1787">
         <command xml:space="preserve">go south</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1377"></child>
+        <children><child nodeId="node-1788"></child>
         </children>
     </item>
-    <item nodeId="node-1377">
+    <item nodeId="node-1788">
         <command xml:space="preserve">go east</command>
         <result xml:space="preserve">
 The Hallway
@@ -700,10 +700,10 @@ You can see a Hopstial Room Door, a Metal Door and an Exit Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1378"></child>
+        <children><child nodeId="node-1789"></child>
         </children>
     </item>
-    <item nodeId="node-1378">
+    <item nodeId="node-1789">
         <command xml:space="preserve">go south</command>
         <result xml:space="preserve">(first opening the Metal Door)
 
@@ -713,7 +713,7 @@ You can see a Metal Door here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1325">
+    <item nodeId="node-1790">
         <command xml:space="preserve">go east</command>
         <result xml:space="preserve">
 The Hallway
@@ -723,32 +723,32 @@ You can see a Hopstial Room Door, a Metal Door and an Exit Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1326"></child>
-            <child nodeId="node-1375"></child>
-            <child nodeId="node-1336"></child>
-            <child nodeId="node-1352"></child>
+        <children><child nodeId="node-1838"></child>
+            <child nodeId="node-1805"></child>
+            <child nodeId="node-1800"></child>
+            <child nodeId="node-1791"></child>
         </children>
     </item>
-    <item nodeId="node-1352">
+    <item nodeId="node-1791">
         <command xml:space="preserve">look north</command>
         <result xml:space="preserve">You see nothing unexpected in that direction.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1353"></child>
-            <child nodeId="node-1356"></child>
+        <children><child nodeId="node-1799"></child>
+            <child nodeId="node-1792"></child>
         </children>
     </item>
-    <item nodeId="node-1356">
+    <item nodeId="node-1792">
         <command xml:space="preserve">what is north</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1357"></child>
+        <children><child nodeId="node-1793"></child>
         </children>
     </item>
-    <item nodeId="node-1357">
+    <item nodeId="node-1793">
         <command xml:space="preserve">go north</command>
         <result xml:space="preserve">"Hey, he's awake!" one of the officers shouts. They tackle you, and you are transported to jail. You are placed on trial for your crimes.
 
@@ -759,10 +759,10 @@ You can see a Judge here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1358"></child>
+        <children><child nodeId="node-1794"></child>
         </children>
     </item>
-    <item nodeId="node-1358">
+    <item nodeId="node-1794">
         <command xml:space="preserve">ask judge what deaths</command>
         <result xml:space="preserve">The Judge frowns. "So you admit to killing them? The evidence is clear." He slams his gavel.
 
@@ -775,10 +775,10 @@ You can see a Judge here.
 Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1359"></child>
+        <children><child nodeId="node-1795"></child>
         </children>
     </item>
-    <item nodeId="node-1359">
+    <item nodeId="node-1795">
         <command xml:space="preserve">restart</command>
         <result xml:space="preserve">
 
@@ -803,10 +803,10 @@ You can also see a Hopstial Room Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1360"></child>
+        <children><child nodeId="node-1796"></child>
         </children>
     </item>
-    <item nodeId="node-1360">
+    <item nodeId="node-1796">
         <command xml:space="preserve">go east</command>
         <result xml:space="preserve">
 The Hallway
@@ -816,20 +816,20 @@ You can see a Hopstial Room Door, an ODoor and an Exit Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1361"></child>
+        <children><child nodeId="node-1797"></child>
         </children>
     </item>
-    <item nodeId="node-1361">
+    <item nodeId="node-1797">
         <command xml:space="preserve">go east</command>
         <result xml:space="preserve">(first opening the Exit Door)
 The door is locked. You'll need a key to open it.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1362"></child>
+        <children><child nodeId="node-1798"></child>
         </children>
     </item>
-    <item nodeId="node-1362">
+    <item nodeId="node-1798">
         <command xml:space="preserve">go east</command>
         <result xml:space="preserve">(first opening the Exit Door)
 The door is locked. You'll need a key to open it.
@@ -837,59 +837,59 @@ The door is locked. You'll need a key to open it.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1353">
+    <item nodeId="node-1799">
         <command xml:space="preserve">go north</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1336">
+    <item nodeId="node-1800">
         <command xml:space="preserve">go to exit door</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1337"></child>
+        <children><child nodeId="node-1801"></child>
         </children>
     </item>
-    <item nodeId="node-1337">
+    <item nodeId="node-1801">
         <command xml:space="preserve">go to exit</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1338"></child>
+        <children><child nodeId="node-1802"></child>
         </children>
     </item>
-    <item nodeId="node-1338">
+    <item nodeId="node-1802">
         <command xml:space="preserve">go east</command>
         <result xml:space="preserve">(first opening the Exit Door)
 The door is locked. You'll need a key to open it.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1339"></child>
+        <children><child nodeId="node-1803"></child>
         </children>
     </item>
-    <item nodeId="node-1339">
+    <item nodeId="node-1803">
         <command xml:space="preserve">go east</command>
         <result xml:space="preserve">(first opening the Exit Door)
 The door is locked. You'll need a key to open it.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1340"></child>
+        <children><child nodeId="node-1804"></child>
         </children>
     </item>
-    <item nodeId="node-1340">
+    <item nodeId="node-1804">
         <command xml:space="preserve">go north</command>
         <result xml:space="preserve">"Hey, he's awake!" one of the officers shouts.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1375">
+    <item nodeId="node-1805">
         <command xml:space="preserve">go south</command>
         <result xml:space="preserve">(first opening the Metal Door)
 
@@ -902,56 +902,56 @@ You can also see a Metal Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1381"></child>
-            <child nodeId="node-1628"></child>
+        <children><child nodeId="node-1834"></child>
+            <child nodeId="node-1806"></child>
         </children>
     </item>
-    <item nodeId="node-1628">
+    <item nodeId="node-1806">
         <command xml:space="preserve">open upper drawer</command>
         <result xml:space="preserve">You open the upper drawer.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1629"></child>
+        <children><child nodeId="node-1807"></child>
         </children>
     </item>
-    <item nodeId="node-1629">
+    <item nodeId="node-1807">
         <command xml:space="preserve">search upper drawer</command>
         <result xml:space="preserve">The upper drawer is empty.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1630"></child>
+        <children><child nodeId="node-1808"></child>
         </children>
     </item>
-    <item nodeId="node-1630">
+    <item nodeId="node-1808">
         <command xml:space="preserve">search lower drawer</command>
         <result xml:space="preserve">You can't see inside, since the lower drawer is closed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1631"></child>
+        <children><child nodeId="node-1809"></child>
         </children>
     </item>
-    <item nodeId="node-1631">
+    <item nodeId="node-1809">
         <command xml:space="preserve">open lower drawer</command>
         <result xml:space="preserve">You open the lower drawer, revealing a Keys.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1632"></child>
+        <children><child nodeId="node-1810"></child>
         </children>
     </item>
-    <item nodeId="node-1632">
+    <item nodeId="node-1810">
         <command xml:space="preserve">pick up keys</command>
         <result xml:space="preserve">You take the keys from the lower drawer.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1633"></child>
+        <children><child nodeId="node-1811"></child>
         </children>
     </item>
-    <item nodeId="node-1633">
+    <item nodeId="node-1811">
         <command xml:space="preserve">go north</command>
         <result xml:space="preserve">
 The Hallway
@@ -961,56 +961,56 @@ You can see a Metal Door, a Hopstial Room Door and an Exit Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1634"></child>
+        <children><child nodeId="node-1812"></child>
         </children>
     </item>
-    <item nodeId="node-1634">
+    <item nodeId="node-1812">
         <command xml:space="preserve">go to metal door</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1635"></child>
+        <children><child nodeId="node-1813"></child>
         </children>
     </item>
-    <item nodeId="node-1635">
+    <item nodeId="node-1813">
         <command xml:space="preserve">open metal door</command>
         <result xml:space="preserve">That's already open.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1636"></child>
+        <children><child nodeId="node-1814"></child>
         </children>
     </item>
-    <item nodeId="node-1636">
+    <item nodeId="node-1814">
         <command xml:space="preserve">open exit door</command>
         <result xml:space="preserve">The door is locked. You'll need a key to open it.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1637"></child>
+        <children><child nodeId="node-1815"></child>
         </children>
     </item>
-    <item nodeId="node-1637">
+    <item nodeId="node-1815">
         <command xml:space="preserve">unlock exit door</command>
         <result xml:space="preserve">(with the Keys)
 You use the keys to unlock the exit door.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1638"></child>
+        <children><child nodeId="node-1816"></child>
         </children>
     </item>
-    <item nodeId="node-1638">
+    <item nodeId="node-1816">
         <command xml:space="preserve">open exit door</command>
         <result xml:space="preserve">You open the Exit Door.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1639"></child>
+        <children><child nodeId="node-1817"></child>
         </children>
     </item>
-    <item nodeId="node-1639">
+    <item nodeId="node-1817">
         <command xml:space="preserve">go east</command>
         <result xml:space="preserve">You walk outside, the sun shines on your face. Still feeling the pain meds, you stumble away, and escape for good.
 
@@ -1023,30 +1023,30 @@ You use the keys to unlock the exit door.
 Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1640"></child>
+        <children><child nodeId="node-1818"></child>
         </children>
     </item>
-    <item nodeId="node-1640">
+    <item nodeId="node-1818">
         <command xml:space="preserve">go out the exit door</command>
         <result xml:space="preserve">Please give one of the answers above.
 
 Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1641"></child>
+        <children><child nodeId="node-1819"></child>
         </children>
     </item>
-    <item nodeId="node-1641">
+    <item nodeId="node-1819">
         <command xml:space="preserve">go through the exit door</command>
         <result xml:space="preserve">Please give one of the answers above.
 
 Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1658"></child>
+        <children><child nodeId="node-1820"></child>
         </children>
     </item>
-    <item nodeId="node-1658">
+    <item nodeId="node-1820">
         <command xml:space="preserve">restart</command>
         <result xml:space="preserve">
 
@@ -1071,19 +1071,19 @@ You can also see a Hopstial Room Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1659"></child>
+        <children><child nodeId="node-1821"></child>
         </children>
     </item>
-    <item nodeId="node-1659">
+    <item nodeId="node-1821">
         <command xml:space="preserve">greet nurse</command>
         <result xml:space="preserve">"Hello, how are you feeling?" says the Nurse gently. "You were in a car accident. Take it easy and let me know if you have questions."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1660"></child>
+        <children><child nodeId="node-1822"></child>
         </children>
     </item>
-    <item nodeId="node-1660">
+    <item nodeId="node-1822">
         <command xml:space="preserve">ask nurse how heal</command>
         <result xml:space="preserve">"You'll need plenty of rest, but you should be better in a few days," the Nurse says.
 
@@ -1096,20 +1096,20 @@ You can see a Judge here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1661"></child>
+        <children><child nodeId="node-1823"></child>
         </children>
     </item>
-    <item nodeId="node-1661">
+    <item nodeId="node-1823">
         <command xml:space="preserve">undo</command>
         <result xml:space="preserve">Hospital Room
 [Previous turn undone.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1662"></child>
+        <children><child nodeId="node-1824"></child>
         </children>
     </item>
-    <item nodeId="node-1662">
+    <item nodeId="node-1824">
         <command xml:space="preserve">go east</command>
         <result xml:space="preserve">
 The Hallway
@@ -1119,10 +1119,10 @@ You can see a Hopstial Room Door, a Metal Door and an Exit Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1663"></child>
+        <children><child nodeId="node-1825"></child>
         </children>
     </item>
-    <item nodeId="node-1663">
+    <item nodeId="node-1825">
         <command xml:space="preserve">go south</command>
         <result xml:space="preserve">(first opening the Metal Door)
 
@@ -1135,10 +1135,10 @@ You can also see a Metal Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1664"></child>
+        <children><child nodeId="node-1826"></child>
         </children>
     </item>
-    <item nodeId="node-1664">
+    <item nodeId="node-1826">
         <command xml:space="preserve">go north</command>
         <result xml:space="preserve">
 The Hallway
@@ -1148,10 +1148,10 @@ You can see a Metal Door, a Hopstial Room Door and an Exit Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1665"></child>
+        <children><child nodeId="node-1827"></child>
         </children>
     </item>
-    <item nodeId="node-1665">
+    <item nodeId="node-1827">
         <command xml:space="preserve">go north</command>
         <result xml:space="preserve">"Hey, he's awake!" one of the officers shouts. They tackle you, and you are transported to jail. You are placed on trial for your crimes.
 
@@ -1162,28 +1162,28 @@ You can see a Judge here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1666"></child>
+        <children><child nodeId="node-1828"></child>
         </children>
     </item>
-    <item nodeId="node-1666">
+    <item nodeId="node-1828">
         <command xml:space="preserve">ask judge what charges</command>
         <result xml:space="preserve">"You are charged with manslaughter for the deaths of a father and daughter while driving under the influence," the Judge says grimly.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1667"></child>
+        <children><child nodeId="node-1829"></child>
         </children>
     </item>
-    <item nodeId="node-1667">
+    <item nodeId="node-1829">
         <command xml:space="preserve">ask judge what evidence</command>
         <result xml:space="preserve">"The evidence includes your blood alcohol content, witness statements, and the damage to your vehicle," the Judge explains.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1668"></child>
+        <children><child nodeId="node-1830"></child>
         </children>
     </item>
-    <item nodeId="node-1668">
+    <item nodeId="node-1830">
         <command xml:space="preserve">ask judge what driver</command>
         <result xml:space="preserve">The Judge ponders for a moment. "I guess you're right, there is no evidence you were actually driving the car." He dismisses the case.
 
@@ -1196,29 +1196,29 @@ You can see a Judge here.
 Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1669"></child>
+        <children><child nodeId="node-1831"></child>
         </children>
     </item>
-    <item nodeId="node-1669">
+    <item nodeId="node-1831">
         <command xml:space="preserve">undo</command>
         <result xml:space="preserve">Courtroom
 [Previous turn undone.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1670"></child>
+        <children><child nodeId="node-1832"></child>
         </children>
     </item>
-    <item nodeId="node-1670">
+    <item nodeId="node-1832">
         <command xml:space="preserve">ask about nurse</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1671"></child>
+        <children><child nodeId="node-1833"></child>
         </children>
     </item>
-    <item nodeId="node-1671">
+    <item nodeId="node-1833">
         <command xml:space="preserve">ask judge about nurse</command>
         <result xml:space="preserve">The Judge starts to respond, but suddenly, the Nurse stands up from the back of the courtroom. "You don't get to walk away from this!" she screams, pulling out a gun and shooting you dead.
 
@@ -1232,41 +1232,41 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1381">
+    <item nodeId="node-1834">
         <command xml:space="preserve">go to desk</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1382"></child>
+        <children><child nodeId="node-1835"></child>
         </children>
     </item>
-    <item nodeId="node-1382">
+    <item nodeId="node-1835">
         <command xml:space="preserve">go to the Desk</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1383"></child>
+        <children><child nodeId="node-1836"></child>
         </children>
     </item>
-    <item nodeId="node-1383">
+    <item nodeId="node-1836">
         <command xml:space="preserve">open upper drawer</command>
         <result xml:space="preserve">It isn't something you can open.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1384"></child>
+        <children><child nodeId="node-1837"></child>
         </children>
     </item>
-    <item nodeId="node-1384">
+    <item nodeId="node-1837">
         <command xml:space="preserve">open Lower drawer</command>
         <result xml:space="preserve">It isn't something you can open.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1326">
+    <item nodeId="node-1838">
         <command xml:space="preserve">go east</command>
         <result xml:space="preserve">(first opening the Exit Door)
 It seems to be locked.
@@ -1274,44 +1274,44 @@ It seems to be locked.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1300">
+    <item nodeId="node-1839">
         <command xml:space="preserve">enter bed</command>
         <result xml:space="preserve">You get onto the Bed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1302"></child>
-            <child nodeId="node-1318"></child>
+        <children><child nodeId="node-1847"></child>
+            <child nodeId="node-1840"></child>
         </children>
     </item>
-    <item nodeId="node-1318">
+    <item nodeId="node-1840">
         <command xml:space="preserve">leave bed</command>
         <result xml:space="preserve">I only understood you as far as wanting to leave.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1319"></child>
+        <children><child nodeId="node-1841"></child>
         </children>
     </item>
-    <item nodeId="node-1319">
+    <item nodeId="node-1841">
         <command xml:space="preserve">get out of bed</command>
         <result xml:space="preserve">I only understood you as far as wanting to get outside.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1320"></child>
+        <children><child nodeId="node-1842"></child>
         </children>
     </item>
-    <item nodeId="node-1320">
+    <item nodeId="node-1842">
         <command xml:space="preserve">go to nurse</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1321"></child>
+        <children><child nodeId="node-1843"></child>
         </children>
     </item>
-    <item nodeId="node-1321">
+    <item nodeId="node-1843">
         <command xml:space="preserve">go east</command>
         <result xml:space="preserve">(first getting off the Bed)
 
@@ -1320,10 +1320,10 @@ You can see a Hopstial Room Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1322"></child>
+        <children><child nodeId="node-1844"></child>
         </children>
     </item>
-    <item nodeId="node-1322">
+    <item nodeId="node-1844">
         <command xml:space="preserve">go west</command>
         <result xml:space="preserve">
 Hospital Room
@@ -1339,204 +1339,204 @@ You can also see a Hopstial Room Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1323"></child>
+        <children><child nodeId="node-1845"></child>
         </children>
     </item>
-    <item nodeId="node-1323">
+    <item nodeId="node-1845">
         <command xml:space="preserve">greet nurse</command>
         <result xml:space="preserve">"Hello, how are you feeling?" says the Nurse gently. "You were in a car accident. Take it easy and let me know if you have questions."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1324"></child>
+        <children><child nodeId="node-1846"></child>
         </children>
     </item>
-    <item nodeId="node-1324">
+    <item nodeId="node-1846">
         <command xml:space="preserve">ask nurse what family</command>
         <result xml:space="preserve">"I have a husband and a daughter," the Nurse says, her tone softening slightly. "They're everything to me."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1302">
+    <item nodeId="node-1847">
         <command xml:space="preserve">enter Bed</command>
         <result xml:space="preserve">That's not something you can enter.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1303"></child>
+        <children><child nodeId="node-1848"></child>
         </children>
     </item>
-    <item nodeId="node-1303">
+    <item nodeId="node-1848">
         <command xml:space="preserve">go to bed</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1304"></child>
+        <children><child nodeId="node-1849"></child>
         </children>
     </item>
-    <item nodeId="node-1304">
+    <item nodeId="node-1849">
         <command xml:space="preserve">go to hospital room</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1698">
+    <item nodeId="node-1850">
         <command xml:space="preserve">eat sand</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1699"></child>
+        <children><child nodeId="node-1851"></child>
         </children>
     </item>
-    <item nodeId="node-1699">
+    <item nodeId="node-1851">
         <command xml:space="preserve">look at table</command>
         <result xml:space="preserve">The table has a single drawer, currently closed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1700"></child>
+        <children><child nodeId="node-1852"></child>
         </children>
     </item>
-    <item nodeId="node-1700">
+    <item nodeId="node-1852">
         <command xml:space="preserve">open drawer</command>
         <result xml:space="preserve">You open the drawer, revealing a sand.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1701"></child>
+        <children><child nodeId="node-1853"></child>
         </children>
     </item>
-    <item nodeId="node-1701">
+    <item nodeId="node-1853">
         <command xml:space="preserve">eat sand</command>
         <result xml:space="preserve">You eat the sand.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1702"></child>
+        <children><child nodeId="node-1854"></child>
         </children>
     </item>
-    <item nodeId="node-1702">
+    <item nodeId="node-1854">
         <command xml:space="preserve">eat sand</command>
         <result xml:space="preserve">You eat the sand.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1703"></child>
+        <children><child nodeId="node-1855"></child>
         </children>
     </item>
-    <item nodeId="node-1703">
+    <item nodeId="node-1855">
         <command xml:space="preserve">eat sand</command>
         <result xml:space="preserve">You eat the sand.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1704"></child>
+        <children><child nodeId="node-1856"></child>
         </children>
     </item>
-    <item nodeId="node-1704">
+    <item nodeId="node-1856">
         <command xml:space="preserve">eat sand</command>
         <result xml:space="preserve">You eat the sand.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1705"></child>
+        <children><child nodeId="node-1857"></child>
         </children>
     </item>
-    <item nodeId="node-1705">
+    <item nodeId="node-1857">
         <command xml:space="preserve">eat sand</command>
         <result xml:space="preserve">You eat the sand.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1706"></child>
+        <children><child nodeId="node-1858"></child>
         </children>
     </item>
-    <item nodeId="node-1706">
+    <item nodeId="node-1858">
         <command xml:space="preserve">eat sand</command>
         <result xml:space="preserve">You eat the sand.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1707"></child>
+        <children><child nodeId="node-1859"></child>
         </children>
     </item>
-    <item nodeId="node-1707">
+    <item nodeId="node-1859">
         <command xml:space="preserve">eat sand</command>
         <result xml:space="preserve">You eat the sand.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1708"></child>
+        <children><child nodeId="node-1860"></child>
         </children>
     </item>
-    <item nodeId="node-1708">
+    <item nodeId="node-1860">
         <command xml:space="preserve">eat sand</command>
         <result xml:space="preserve">You eat the sand.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1709"></child>
+        <children><child nodeId="node-1861"></child>
         </children>
     </item>
-    <item nodeId="node-1709">
+    <item nodeId="node-1861">
         <command xml:space="preserve">eat sand</command>
         <result xml:space="preserve">You eat the sand.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1710"></child>
+        <children><child nodeId="node-1862"></child>
         </children>
     </item>
-    <item nodeId="node-1710">
+    <item nodeId="node-1862">
         <command xml:space="preserve">eat sand</command>
         <result xml:space="preserve">You eat the sand.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1711"></child>
+        <children><child nodeId="node-1863"></child>
         </children>
     </item>
-    <item nodeId="node-1711">
+    <item nodeId="node-1863">
         <command xml:space="preserve">eat sand</command>
         <result xml:space="preserve">You eat the sand.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1712"></child>
+        <children><child nodeId="node-1864"></child>
         </children>
     </item>
-    <item nodeId="node-1712">
+    <item nodeId="node-1864">
         <command xml:space="preserve">eat sand</command>
         <result xml:space="preserve">You eat the sand.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1713"></child>
+        <children><child nodeId="node-1865"></child>
         </children>
     </item>
-    <item nodeId="node-1713">
+    <item nodeId="node-1865">
         <command xml:space="preserve">eat sand</command>
         <result xml:space="preserve">You eat the sand.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1714"></child>
+        <children><child nodeId="node-1866"></child>
         </children>
     </item>
-    <item nodeId="node-1714">
+    <item nodeId="node-1866">
         <command xml:space="preserve">eat sand</command>
         <result xml:space="preserve">You eat the sand.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1715"></child>
+        <children><child nodeId="node-1867"></child>
         </children>
     </item>
-    <item nodeId="node-1715">
+    <item nodeId="node-1867">
         <command xml:space="preserve">eat sand</command>
         <result xml:space="preserve">You eat the sand.
 The nurse watches, distrubed as you shovel handful after handful of sand through your parched lips. She eventually leaves, and you continue to eat sand to your hearts content.
@@ -1550,10 +1550,10 @@ The nurse watches, distrubed as you shovel handful after handful of sand through
 Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1716"></child>
+        <children><child nodeId="node-1868"></child>
         </children>
     </item>
-    <item nodeId="node-1716">
+    <item nodeId="node-1868">
         <command xml:space="preserve">eat sand</command>
         <result xml:space="preserve">Please give one of the answers above.
 
@@ -1561,35 +1561,35 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1341">
+    <item nodeId="node-1869">
         <command xml:space="preserve">ask nurse</command>
         <result xml:space="preserve">You should greet the Nurse first.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1342"></child>
+        <children><child nodeId="node-1870"></child>
         </children>
     </item>
-    <item nodeId="node-1342">
+    <item nodeId="node-1870">
         <command xml:space="preserve">greet nurse</command>
         <result xml:space="preserve">"Hello, how are you feeling?" says the Nurse gently. "You were in a car accident. Take it easy and let me know if you have questions."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1343"></child>
+        <children><child nodeId="node-1871"></child>
         </children>
     </item>
-    <item nodeId="node-1343">
+    <item nodeId="node-1871">
         <command xml:space="preserve">ask nurse how recover</command>
         <result xml:space="preserve">You output a slurred string of words that couldn't be understood.
 The Nurse says, "I don't think I understand what you just said. Could you try again?"
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1344"></child>
+        <children><child nodeId="node-1872"></child>
         </children>
     </item>
-    <item nodeId="node-1344">
+    <item nodeId="node-1872">
         <command xml:space="preserve">ask nurse how heal</command>
         <result xml:space="preserve">"You'll need plenty of rest, but you should be better in a few days," the Nurse says.
 
@@ -1602,10 +1602,10 @@ You can see a Judge here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1345"></child>
+        <children><child nodeId="node-1873"></child>
         </children>
     </item>
-    <item nodeId="node-1345">
+    <item nodeId="node-1873">
         <command xml:space="preserve">ask judge deaths</command>
         <result xml:space="preserve">The Judge frowns. "So you admit to killing them? The evidence is clear." He slams his gavel.
 
@@ -1618,20 +1618,20 @@ You can see a Judge here.
 Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1346"></child>
+        <children><child nodeId="node-1874"></child>
         </children>
     </item>
-    <item nodeId="node-1346">
+    <item nodeId="node-1874">
         <command xml:space="preserve">reatsrt</command>
         <result xml:space="preserve">Please give one of the answers above.
 
 Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1347"></child>
+        <children><child nodeId="node-1875"></child>
         </children>
     </item>
-    <item nodeId="node-1347">
+    <item nodeId="node-1875">
         <command xml:space="preserve">restart</command>
         <result xml:space="preserve">
 
@@ -1656,10 +1656,10 @@ You can also see a Hopstial Room Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1348"></child>
+        <children><child nodeId="node-1876"></child>
         </children>
     </item>
-    <item nodeId="node-1348">
+    <item nodeId="node-1876">
         <command xml:space="preserve">go east</command>
         <result xml:space="preserve">
 The Hallway
@@ -1669,19 +1669,19 @@ You can see a Hopstial Room Door, an ODoor and an Exit Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1349"></child>
+        <children><child nodeId="node-1877"></child>
         </children>
     </item>
-    <item nodeId="node-1349">
+    <item nodeId="node-1877">
         <command xml:space="preserve">look north</command>
         <result xml:space="preserve">You see nothing unexpected in that direction.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1350"></child>
+        <children><child nodeId="node-1878"></child>
         </children>
     </item>
-    <item nodeId="node-1350">
+    <item nodeId="node-1878">
         <command xml:space="preserve">go north</command>
         <result xml:space="preserve">"Hey, he's awake!" one of the officers shouts.
 

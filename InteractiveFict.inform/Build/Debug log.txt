@@ -1,0 +1,163 @@
+Debugging log of inform7
+inform7 was called as: /Applications/Inform.app/Contents/MacOS/ni -internal /Applications/Inform.app/Contents/Resources/Internal -external /Users/nathan/Library/Inform -project /Users/nathan/InteractiveFiction/InteractiveFict.inform -format=ulx
+Reading further switches from file: <no file>
+Completed expert settings file
+Using Inform kit 'BasicInformKit' (priority 0).
+Using Inform kit 'EnglishLanguageKit' (priority 1).
+Using Inform kit 'WorldModelKit' (priority 2).
+Using Inform kit 'CommandParserKit' (priority 3).
+756 Preform nonterminals read from /Applications/Inform.app/Contents/Resources/Internal/Languages/English/Syntax.preform
+I've now read your source text, which is 2887 words long.
+Included: core, naming, instance counting, interactive fiction, spatial model, backdrops, bibliographic data, chronology, devices, mapping, persons, player, regions, scenes, scoring, timed rules, times of day, actions, going, command, showme, multimedia, figures, sounds, glulx external files
+Excluded: 
+I've also read Basic Inform by Graham Nelson, which is 7691 words long.
+I've also read English Language by Graham Nelson, which is 2328 words long.
+I've also read Standard Rules by Graham Nelson, which is 32164 words long.
+
+
+-----------------------------------------------------
+Phase I ... Dividing source into compilation units
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase II ... Making built in infrastructure
+-----------------------------------------------------
+
+Loading kinds definitions from /Applications/Inform.app/Contents/Resources/Internal/Inter/BasicInformKit/kinds/Macros.neptune
+Loading kinds definitions from /Applications/Inform.app/Contents/Resources/Internal/Inter/BasicInformKit/kinds/Protocols.neptune
+Loading kinds definitions from /Applications/Inform.app/Contents/Resources/Internal/Inter/BasicInformKit/kinds/Core.neptune
+Loading kinds definitions from /Applications/Inform.app/Contents/Resources/Internal/Inter/BasicInformKit/kinds/Punctuation.neptune
+Loading kinds definitions from /Applications/Inform.app/Contents/Resources/Internal/Inter/BasicInformKit/kinds/Files.neptune
+Loading kinds definitions from /Applications/Inform.app/Contents/Resources/Internal/Inter/WorldModelKit/kinds/Actions.neptune
+Loading kinds definitions from /Applications/Inform.app/Contents/Resources/Internal/Inter/WorldModelKit/kinds/Times.neptune
+Loading kinds definitions from /Applications/Inform.app/Contents/Resources/Internal/Inter/WorldModelKit/kinds/Scenes.neptune
+Loading kinds definitions from /Applications/Inform.app/Contents/Resources/Internal/Inter/WorldModelKit/kinds/Figures.neptune
+Loading kinds definitions from /Applications/Inform.app/Contents/Resources/Internal/Inter/WorldModelKit/kinds/Sounds.neptune
+Loading kinds definitions from /Applications/Inform.app/Contents/Resources/Internal/Inter/CommandParserKit/kinds/Parsing.neptune
+
+
+-----------------------------------------------------
+Phase III ... Pre-pass through major nodes
+-----------------------------------------------------
+
+.... MajorNodes__pre_pass() took 10cs
+
+
+-----------------------------------------------------
+Phase IV ... First pass through major nodes
+-----------------------------------------------------
+
+.... MajorNodes__pass_1() took 7cs
+
+
+-----------------------------------------------------
+Phase V ... Second pass through major nodes
+-----------------------------------------------------
+
+.... MajorNodes__pass_2() took 1cs
+
+
+-----------------------------------------------------
+Phase VI ... Making the model world
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase VII ... Completing the model world
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase VIII ... Tables and grammar
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase IX ... Augment model world
+-----------------------------------------------------
+
+.... World__stage_V() took 1cs
+
+
+-----------------------------------------------------
+Phase X ... Phrases and rules
+-----------------------------------------------------
+
+.... ImperativeDefinitions__assess_all() took 3cs
+
+
+-----------------------------------------------------
+Phase XI ... Generating inter (1)
+-----------------------------------------------------
+
+.... RTKindConstructors__compile() took 3cs
+
+
+-----------------------------------------------------
+Phase XII ... Generating inter (2)
+-----------------------------------------------------
+
+
+
+==== Phase XII.1 ... Slashing command grammar ====
+
+
+
+==== Phase XII.2 ... Determining command grammar ====
+
+
+
+-----------------------------------------------------
+Phase XIII ... Generating inter (3)
+-----------------------------------------------------
+
+.... Sequence__undertake_queued_tasks() took 85cs
+.... Sequence__undertake_queued_tasks() took 1cs
+.... RTPhrasebook__compile_entries() took 5cs
+
+
+-----------------------------------------------------
+Phase XIV ... Generating inter (4)
+-----------------------------------------------------
+
+
+
+==== Phase XIV.1 ... Slashing command grammar ====
+
+
+
+==== Phase XIV.2 ... Determining command grammar ====
+
+
+
+-----------------------------------------------------
+Phase XV ... Generating inter (5)
+-----------------------------------------------------
+
+.... Sequence__undertake_queued_tasks() took 1cs
+Providing for a total heap of 8192, given requirement of 8192
+.... Sequence__lint_inter() took 2cs
+
+
+-----------------------------------------------------
+Phase XVI ... Bibliographic work
+-----------------------------------------------------
+
+Problem Untestable issued from inform7/if-module/Chapter 2/Release Instructions.w, line 434
+
+  >--> A problem occurred with the 'Release along with...': instructions
+    ('cover art ("The back of a nurse's head")' (source text, line 3)): The
+    release instructions said that there is a cover image to attach to the
+    story file, but I was unable to find it, having looked for both 'Cover.png'
+    and 'Cover.jpg' in the '.materials' folder for this project (with the file
+    '/Users/nathan/InteractiveFiction/InteractiveFict.materials/Cover.png')
+
+Compile CPU time: 131 centiseconds
+Total of 3 files written as streams.
+Vacant escapes: %: ..CDE.GH..K.M.O.QR.TU...YZab..e..h.jklm.o.qr......yz0123456789
+Vacant escapes: $: .....F...J..........UVW.....................s.u..x.........789

@@ -1,5 +1,15 @@
 "The Nurse" by Nathan Parker
 
+Release along with an interpreter, a website, cover art ("The back of a nurse's head") and the source text.
+
+The story genre is "Interactive Fiction.".
+
+The story headline is "My first interactive fiction".
+
+The story creation year is 2025.
+
+The release number is 1.
+
 Chapter 1 - The Hospital Room
 
 When play begins, say "'You wake up in a hospital bed, the faint smell of antiseptic lingering in the air. The walls are pale blue, and medical equipment hums softly nearby. You feel groggy, your body aching from the effects of painkillers.'";
