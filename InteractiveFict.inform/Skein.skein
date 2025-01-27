@@ -11,8 +11,8 @@
 "You wake up in a hospital bed, the faint smell of antiseptic lingering in the air. The walls are pale blue, and medical equipment hums softly nearby. You feel groggy, your body aching from the effects of painkillers."
 
 The Nurse
-An Interactive Fiction by Nathan Parker
-Release 1 / Serial number 250126 / Inform 7 v10.1.2 / D
+My first interactive fiction by Nathan Parker
+Release 1 / Serial number 250127 / Inform 7 v10.1.2 / D
 
 Hospital Room
 The hospital bed looks old but functional, with crisp white sheets that smell faintly of bleach.
@@ -717,7 +717,7 @@ You can see a Metal Door here.
         <command xml:space="preserve">go east</command>
         <result xml:space="preserve">
 The Hallway
-The hallway is well-lit and empty aside from some generic paintings on the walls. As you step into the hallway, you notice a group of police officers standing to the north, their eyes fixed on you
+The hallway is well-lit and empty aside from some generic paintings on the walls. As you step into the hallway, you notice a group of police officers standing to the north, their eyes fixed on you. To the south is a metal door leading to an office.
 
 You can see a Hopstial Room Door, a Metal Door and an Exit Door here.
 
